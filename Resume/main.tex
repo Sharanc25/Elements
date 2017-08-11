@@ -1,0 +1,555 @@
+%------------------------------------------------------------------------------------------------
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2015 Jan Küster
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------
+
+
+%============================================================================%
+%
+%	DOCUMENT DEFINITION
+%
+%============================================================================%
+
+%we use article class because we want to fully customize the page and dont use a cv template
+\documentclass[10pt,A4]{article}	
+
+
+%----------------------------------------------------------------------------------------
+%	ENCODING
+%----------------------------------------------------------------------------------------
+
+%we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}		
+
+%----------------------------------------------------------------------------------------
+%	LOGIC
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xifthen}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% some tex-live fonts - choose your own
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
+
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}		
+
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%debug page outer frames
+%\usepackage{showframe}			
+
+
+%define page styles using geometry
+\usepackage[a4paper]{geometry}		
+
+% for example, change the margins to 2 inches all round
+\geometry{top=1.75cm, bottom=-.6cm, left=1.5cm, right=1.5cm} 	
+
+%use customized header
+\usepackage{fancyhdr}				
+\pagestyle{fancy}
+
+%less space between header and content
+\setlength{\headheight}{-5pt}		
+
+
+%customize entries left, center and right
+\lhead{}
+\chead{ \small{Sharan Chandran $\cdot$ 07 August 1989 $\cdot$ Male $\cdot$ India  $\cdot$  \textcolor{sectcol}{\textbf{Sharanc25@gmail.com}} $\cdot$ (+91) 97893 33850}}
+\rhead{}
+
+
+%indentation is zero
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+%	TABLE /ARRAY DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for layouting tables
+\usepackage{multicol}			
+\usepackage{multirow}
+
+%extended aligning of tabular cells
+\usepackage{array}
+
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for header image
+\usepackage{graphicx}
+
+%for floating figures
+\usepackage{wrapfig}
+\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+%for drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+\usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{255,150,0}
+
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{ragged2e}
+%============================================================================%
+%
+%
+%	DEFINITIONS
+%
+%
+%============================================================================%
+
+%----------------------------------------------------------------------------------------
+% 	HEADER
+%----------------------------------------------------------------------------------------
+
+% remove top header line
+\renewcommand{\headrulewidth}{0pt} 
+
+%remove botttom header line
+\renewcommand{\footrulewidth}{0pt}	  	
+
+%remove pagenum
+\renewcommand{\thepage}{}	
+
+%remove section num		
+
+\renewcommand{\thesection}{}			
+
+%----------------------------------------------------------------------------------------
+% 	ARROW GRAPHICS in Tikz
+%----------------------------------------------------------------------------------------
+
+% a six pointed arrow poiting to the left
+\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}	
+
+% include the left arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\larrow}[1]
+{\begin{tikzpicture}[scale=0.58]
+	 \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
+ \end{tikzpicture}
+}
+
+% a six pointed arrow poiting to the right
+\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
+
+% include the right arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\rarrow}
+{\begin{tikzpicture}[scale=0.7]
+	\filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
+ \end{tikzpicture}
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	custom sections
+%----------------------------------------------------------------------------------------
+
+% create a coloured box with arrow and title as cv section headline
+% param 1: section title
+%
+\newcommand{\cvsection}[1]
+{
+\colorbox{sectcol}{\mystrut \makebox[1\linewidth][l]{
+\larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \textcolor{white}{\textbf{#1}}\hspace{4pt}
+}}\\
+}
+
+%create a coloured arrow with title as cv meta section section
+% param 1: meta section title
+%
+\newcommand{\metasection}[2]
+{
+\begin{tabular*}{1\textwidth}{p{2.4cm} p{11cm}}
+\larrow{bgcol}	 \normalsize{\textcolor{sectcol}{#1}}&#2\\[0.45ex]
+\end{tabular*}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+% creates a stretched box as cv entry headline followed by two paragraphs about 
+% the work you did
+% param 1:	event time i.e. 2014 or 2011-2014 etc.
+% param 2:	event name (what did you do?)
+% param 3:	institution (where did you work / study)
+% param 4:	what was your position
+% param 5:	some words about your contributions
+%
+\newcommand{\cvevent}[5]
+{
+\vspace{8pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+
+	\end{tabular*}
+\vspace{-12pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm} p{14.4cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&		 \larrow{bgcol}  #5\\[6pt]
+	\end{tabular*}
+
+}
+
+% creates 0 list event 
+
+\newcommand{\cveventzero}[5]
+{
+\vspace{8pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+
+	\end{tabular*}
+\vspace{-12pt}
+%\textcolor{softcol}{\hrule}
+\vspace{3pt}
+}
+
+% creates 3 list event 
+\newcommand{\cveventthree}[6]
+{
+\vspace{8pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+
+	\end{tabular*}
+\vspace{-12pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm} p{14.4cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&        \larrow{bgcol}  #5\\[3pt]
+&		 \larrow{bgcol}  #6\\[6pt]
+	\end{tabular*}
+}
+
+% creates a stretched box as 
+\newcommand{\cveventmeta}[2]
+{
+	\mbox{\mystrut \hspace{87pt}\textit{#1}}\\
+	#2
+}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM STRUT FOR EMPTY BOXES
+%----------------------------------------- -----------------------------------------------
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM LOREM IPSUM
+%----------------------------------------------------------------------------------------
+\newcommand{\lorem}
+{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
+\begin{document}
+
+
+%use our custom fancy header definitions
+\pagestyle{fancy}	
+
+
+%---------------------------------------------------------------------------------------
+%	TITLE HEADLINE
+%----------------------------------------------------------------------------------------
+\vspace{-20.55pt}
+
+% use this for multiple words like working titles etc.
+%\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\hspace{46pt}\HUGE{\textcolor{white}{\textsc{Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \parbox[b]{5cm}{   \large{ \textcolor{white}{{IT Consultant}}}\\
+% \large{ \textcolor{white}{{Resume}}}}
+%}}
+
+% use this for single words, e.g. CV or RESUME etc.
+\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\LARGE{\textcolor{white}{\textsc{Sharan Chandran}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.6cm}} \LARGE{\textcolor{white}{\textsc{Resume}} } }}
+
+
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+\vspace{-5pt}
+\begin{figure}[H]
+\begin{flushright}
+	%\includegraphics[trim= 320 130 460 210,clip,width=0.2\linewidth]{myfoto.jpg}	%trimming relative to image size!
+	\includegraphics[height=3.3cm,keepaspectratio]{myfoto.jpg}
+\end{flushright}
+\end{figure}
+
+%---------------------------------------------------------------------------------------
+%	QR CODE (optional)
+%----------------------------------------------------------------------------------------
+%\vspace{-136pt}
+%\hspace{0.75\linewidth}
+%\includegraphics[width=103pt]{qrcode}
+%\normalsize
+%\vspace{88pt}
+
+%---------------------------------------------------------------------------------------
+%	META SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-118pt}
+
+\metasection{Current}{Doctoral Student at Indian Institute of Science (IISc), Bangalore}
+\metasection{Research}{Solid State Battery, Thin Films, Mechanical behaviour of materials, Materials Characterization} 
+\metasection{Education}{\RaggedRight \href{http://www.nitt.edu/}{National Institute of Technology (NIT), Trichy (M.S.)} \break \href{http://www.nitt.edu/}{National Institute of Technology (NIT), Trichy (B.Tech)}}
+
+\vspace{8pt}
+
+%---------------------------------------------------------------------------------------
+%	SUMMARAY (optional)
+%----------------------------------------------------------------------------------------
+
+%\cvsection{Summary}\\
+%Digital media graduate with four years project experience in the field of technology based assessment. Specialized in development of test-scenario engines and innovative, rich media item formats. Master studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems.  Prior knowledge has been collected in he field of usability / accessibility during bachelor studies.\\
+
+%============================================================================%
+%
+%	CV SECTIONS AND EVENTS (MAIN CONTENT)
+%
+%============================================================================%
+
+%---------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%--------------------------------------------------------------------------------------
+\cvsection{Education}
+
+\vspace{8pt}
+
+{\bf Master of Science in Metallurgical and Materials Engineering} \hfill \textcolor{bgcol}{2013 - 2015} \\ 
+\href{http://www.nitt.edu/}{National Institute of Technology (NIT), Trichy} \hfill Publications: 2  \\
+
+
+{\bf Bachelor of Technology in Metallurgical \& Materials Engineering} \hfill \textcolor{bgcol}{2010 - 2014} \\ 
+\href{http://www.nitt.edu/}{National Institute of Technology (NIT), Trichy} \hfill Overall GPA: 7.02/10 \\
+
+
+{\bf Higher Secondary (Tamil Nadu Board)}           \hfill \textcolor{bgcol}{2007}\\ 
+{R.S.Krishnan, Trichy} \hfill Overall Marks: 89 \% \\
+
+
+{\bf Secondary (Central Board of Secondary Education)}                 \hfill \textcolor{bgcol}{2005}\\ 
+{R.S.Krishnan, Trichy}       \hfill Overall Marks: 88 \% \\
+
+
+%---------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\cvsection{Publications}
+
+\cveventzero
+{2017}
+{Interlayer Engineering on Friction Welded Titanium Tube to Stainless Steel Tube Plate by External Tool Process 
+\newline \textcolor{bgcol}{CM Rejil, S Muthukumaran, C Sharan, SP Gill, HB Dong {}}}
+{\href{http://www.iisc.ac.in/}{Transactions of the Indian Institute of Metals}\break}
+{}
+{}
+
+\cveventzero
+{2016}
+{Influence of flash trap profiles on joint properties of friction welded CP-Ti tube to 304L stainless steel tube plate using external tool 
+\newline \textcolor{bgcol}{CM REJIL, C SHARAN, S MUTHUKUMARAN, M VASUDEVAN {}}}
+{\href{http://www.iisc.ac.in/}{Transactions of the Indian Institute of Metals}\break}
+{}
+{}
+
+\cveventzero
+{2015}
+{Effect of flash trap profile on joint strength of Friction Welding of Ti-6Al-4V tube to
+AA6061 tube plate using an external tool 
+\newline \textcolor{bgcol}{Sharan. C, Sooraj. R, Maxwell Rejil. C and Muthukumaran. S {}}}
+{\href{http://www.iisc.ac.in/}{International Conference on Advances in Materials, Manufacturing and Applications}\break}
+{}
+{}
+
+\cveventzero
+{2015}
+{Friction welding of Ti-6Al-4V Tube to Tube Plate using an external tool 
+\newline \textcolor{bgcol}{Sharan. C, Maxwell Rejil. C and Muthukumaran. S {}}}
+{\href{http://www.iisc.ac.in/}{International Conference on Cutting, Welding and Surfacing}\break}
+{}
+{}
+
+\cveventzero
+{2015}
+{Roentgen - An open source XRD App 
+\newline \textcolor{bgcol}{Sharan. C, Vinoadh Kumar. K and Muthukumaran. S {}}}
+{\href{http://www.iisc.ac.in/}{53$ ^{rd} $ National Metallurgists' Day}\break}
+{}
+{}
+
+
+%---------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Research Experience}
+
+\cveventzero
+{2016-Present}
+{Mechanism of Lithium Cobalt Oxide batteries \newline \textcolor{bgcol}{Doctoral Student, Advisor: Dr. Vijay Anand Sethuraman}}
+{\href{http://www.iisc.ac.in/}{Indian Institute of Science, Bangalore}}
+
+
+\textcolor{softcol}{\hrule}
+
+%
+\cveventzero
+{2013 - 2015}
+{FRICTION WELDING OF Ti-6Al-4V TUBE TO AA6061 TUBE PLATE USING AN EXTERNAL TOOL 
+\newline \textcolor{bgcol}{Graduate, Advisor: Dr. S. Muthukumaran}}
+{\href{http://www.nitt.edu/}{National Institute of Technology, Trichy}\break}
+
+
+\textcolor{softcol}{\hrule}
+ 
+\vspace{10pt}
+
+\cveventzero{2010 - 2011}{FRICTION WELDING OF Ti-6Al-4V TUBE TO Ti-6Al-4V TUBE PLATE USING AN EXTERNAL TOOL 
+\newline \textcolor{bgcol}{Undergraduate, Advisor: Dr. S. Muthukumaran}}
+{\href{http://www.nitt.edu/}{National Institute of Technology, Trichy}\break}
+
+
+\textcolor{softcol}{\hrule}
+
+\cveventzero{2011}{Industrial training 
+\newline \textcolor{bgcol}{Summer Internship}}{BHEL, Trichy\break}
+
+
+%\textcolor{softcol}{\hrule}
+
+
+%---------------------------------------------------------------------------------------
+%	SKILLS DEVELOPED
+%--------------------------------------------------------------------------------------
+\cvsection{Technical Skills }
+
+\vspace{8pt}
+
+\begin{tabular}{p{4cm}p{12.85cm}}
+{\bf {\RaggedRight Equipment Handling and Characterization Techniques}} & 
+Scanning Electron Microscopy, Nano Indentation, PVD Sputtering, X-Ray Photoelectron Spectroscopy, Glovebox Workstation, Optical measurement techniques (MOS), X-Ray Diffraction, Optical Profilometry, Conventional Metallography, High temperature furnaces, Tensile Testing, 4-Axis Friction Stir Welding Machine \\
+\\
+{\bf Software and Tools} &  MATLAB, Javascript, PHP, Origin-Pro, LaTeX, MS Office, Photoshop \\
+
+\end{tabular}
+
+\vspace{10pt}
+
+%---------------------------------------------------------------------------------------
+%	REFERENCE SECTION
+%--------------------------------------------------------------------------------------
+\cvsection{References}
+
+\begin{multicols}{3} \raggedright
+
+{\bf \href{http://materials.iisc.ac.in/faculty/vijay/}{Dr. Vijay A. Sethuraman}} \\
+Assistant Professor\\  
+Materials Engineering\\
+Indian Institute of Science (IISc), Bangalore\\
+vijay@materials.iisc.ernet.in\\
+
+\columnbreak
+
+{\bf Dr. S. Muthukumaran} \\
+Associate Professor \\  
+Metallurgical \& Materials Engg.\\
+National Institute of Technology (NIT), Trichy\\
+smuthu@nitt.edu\\
+
+\columnbreak
+
+{\bf Prof. Abinandanan} \\
+Professor \\  
+Materials Engineering\\
+Indian Institute of Science (IISc), Bangalore\\
+abinand@materials.iisc.ernet.in\\
+
+\end{multicols}
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT END
+%
+%
+%
+%============================================================================%
+\end{document}
