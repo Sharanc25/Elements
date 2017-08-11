@@ -1,0 +1,29 @@
+Name - Elements
+P/W  - vijaylab1
+
+Router (http://192.168.1.1) :
+U//N       - admin
+P/w        - vijaylab1
+Router P/W - d6nw5v1x2pc7st9m
+
+iiscproxy.serc.iisc.ernet.in
+noauthproxy.serc.iisc.ernet.in
+
+For LAN Alone
+IP - 10.194.2.25
+IP - 10.164.1.183 (Elements)
+Subnet - 255.255.255.0
+Default Gateway - 10.194.29.1
+Default Gateway - 10.164.1.1
+
+For both LAN and WiFi
+Preferred DNS - 
+10.16.25.15
+10.16.25.13
+
+Name - CPDM@FAAD
+P/W  - 
+
+Proxy Settings 
+iiscproxy.serc.iisc.ernet.in
+3128

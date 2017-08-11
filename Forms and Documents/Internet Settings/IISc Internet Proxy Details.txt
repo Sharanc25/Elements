@@ -1,0 +1,10 @@
+Proxy Address : (http://www.serc.iisc.ernet.in/user/UserEdu98/network/tsld012.htm)
+proxy.iisc.ernet.in
+noauthproxy.serc.iisc.ernet.in
+authproxy.serc.iisc.ernet.in
+144.16.79.58
+
+Script :
+http://access.iisc.ernet.in/proxy.pac
+
+Port : 3128
