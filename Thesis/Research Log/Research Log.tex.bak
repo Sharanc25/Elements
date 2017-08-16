@@ -21,7 +21,7 @@
 
 %http://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 \makeatletter % changes the catcode of @ to 11
-\def\input@path{{../chapters/1.Introduction/},{../chapters/2.Literature_Review/},{../chapters/3.Experimental_Details/},{../chapters/2.Literature_Review/},{../chapters/4.Results_and_Discussion/}}
+\def\input@path{{../Month/}}
 \makeatother % changes the catcode of @ back to 12
 
 
@@ -35,7 +35,7 @@
 {\Huge Primary Alpha, Transformed Beta and Low Cycle Fatigue Studies for Ti-6242 and Ti-6246 Alloys}\\[5mm]
 
 
-
+\input{"2017 - 08 - [August]"}
 
 
 \end{document}
