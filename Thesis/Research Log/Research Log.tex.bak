@@ -54,7 +54,7 @@ The samples were cut in EDM.
 \begin{figure}[H]
     \centering
         \includegraphics[width=\textwidth]{"Ti-6246 [cut-EDM]"}
-        \caption{Ti-6246 As Received; Surface}
+        \caption{Ti-6246 EDM Cut; Different Profile for surface and Cross-Section}
     \label{fig:EDM-Cut}
 \end{figure}
 
@@ -63,6 +63,7 @@ The samples were cut in EDM.
 \newpage
 \renewcommand{\workingDate}{\textsc{2017 $|$ August $|$ 14}}
 \section*{Initial Microstructure}
+Etchant - Equal parts of Methanol + HF + HCl + HNO$_{3}$
 
 \begin{figure}[H]
     \centering
