@@ -3,28 +3,53 @@
 %%% 
 \documentclass[11pt,letterpaper]{article}
 
-\newcommand{\workingDate}{\textsc{2016 $|$ December $|$ 13}}
+\newcommand{\workingDate}{\textsc{2017 $|$ August $|$ 11}}
 \newcommand{\userName}{Sharan Chandran}
 \newcommand{\institution}{IISc, Bangalore}
 \usepackage{researchdiary_png}
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{float} %% For image placement
+
 
 \begin{document} 
-\univlogo
+%% Adds images directory for each chapter
+\graphicspath{{../Images/}} 
+
+%\univlogo
+
+
+
 
 \title{Research Diary}
 
-%{\Huge January 20}\\[5mm]
+{\Huge Primary Alpha, Transformed Beta and Low Cycle Fatigue Studies for Ti-6242 and Ti-6246 Alloys}\\[5mm]
 
-\section*{Initial conditions for the turbulent molecular cloud run}
+\section*{Titanium 6246 Alloy} 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti-6246 [uncut]"}
+        \caption{Ti-6246 As Received; Surface}
+        \label{fig:2a}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti-6246 [uncut-cs]"}
+        \caption{Ti-6246 As Received; Cross-Section}
+        \label{fig:2b}
+    \end{subfigure}
+    %\caption{}
+    \label{fig:2}
+\end{figure}
 
 
-
-
-\subsection*{Inner radius}
-
+\subsection*{EDM Cutting}
+The samples were cut 
 
 
 
@@ -32,23 +57,7 @@
 \renewcommand{\workingDate}{\textsc{2016 $|$ December $|$ 16}}
 \section*{Deposition Parameters}
 
-\begin{table}[!htbp]
-\centering
-%\caption*{Deposition Parameters}
-\label{my-label}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-\hline
-\multirow{2}{*}{\textbf{Date}} & \multirow{2}{*}{\textbf{Sample ID}} & \multicolumn{2}{c|}{\textbf{Weight (g)}} & \multirow{2}{*}{\textbf{Thickness}} & \multicolumn{2}{c|}{\textbf{Deposition}} & \multirow{2}{*}{\textbf{Arbin}} & \multirow{2}{*}{\textbf{Comments}} \\ \cline{3-4} \cline{6-7}
- &  & \textbf{Initial} & \textbf{Final} &  & \textbf{Temperature} & \textbf{Time} &  &  
- \\  \hline
-{13 Dec 16} & {SS-LCO-1} & {1.73465} & {1.73524} & {} & {560} & {50 Mins} & {} & {Didn't run properly} 
-\\ \hline
 
-
-\end{tabular}%
-}
-\end{table}
 
 
 \end{document}
