@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 14:09
 entering extended mode
 **"Research Log.tex"
 ("Research Log.tex"
@@ -586,16 +586,12 @@ File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 15.
 (pdftex.def)             Requested size: 50.05145pt x 49.37918pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -609,33 +605,27 @@ Non-PDF special ignored!{C:/Users/Sharan/AppData/Local/MiKTeX/2.9/pdftex/config
 
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored! <./logo.png>] [2] [3]
+Non-PDF special ignored! <./logo.png>] [2]
 ("D:\PhD\Thesis\Research Log\build\Research Log.aux") ) 
 Here is how much of TeX's memory you used:
- 11662 strings out of 493673
- 197796 string characters out of 3143957
- 266420 words of memory out of 3000000
- 14831 multiletter control sequences out of 15000+200000
- 10920 words of font info for 41 fonts, out of 3000000 for 9000
+ 11657 strings out of 493673
+ 197732 string characters out of 3143957
+ 265420 words of memory out of 3000000
+ 14828 multiletter control sequences out of 15000+200000
+ 10453 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 53i,13n,92p,576b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,14n,92p,453b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb>
-Output written on "D:/PhD/Thesis/Research Log/build/Research Log.pdf" (3 pages,
- 462464 bytes).
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+10.pfb>
+Output written on "D:/PhD/Thesis/Research Log/build/Research Log.pdf" (2 pages,
+ 376339 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
