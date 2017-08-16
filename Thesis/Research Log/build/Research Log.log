@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 14:29
 entering extended mode
 **"Research Log.tex"
 ("Research Log.tex"
@@ -667,6 +667,14 @@ File: ../Images/"Ti-6246 [uncut-cs]".jpg Graphic file (type jpg)
 Package pdftex.def Info: ../Images/"Ti-6246 [uncut-cs]".jpg used on input line 
 42.
 (pdftex.def)             Requested size: 200.19054pt x 120.09682pt.
+
+<../Images/"Ti-6246 [cut-EDM]".jpg, id=3, 963.6pt x 722.7pt>
+File: ../Images/"Ti-6246 [cut-EDM]".jpg Graphic file (type jpg)
+
+<use ../Images/"Ti-6246 [cut-EDM]".jpg>
+Package pdftex.def Info: ../Images/"Ti-6246 [cut-EDM]".jpg used on input line 5
+6.
+(pdftex.def)             Requested size: 500.484pt x 375.35403pt.
  [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -678,26 +686,58 @@ Non-PDF special ignored!{C:/Users/Sharan/AppData/Local/MiKTeX/2.9/pdftex/config
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored! <../Images/Ti-6246 [uncut].jpg> <../Images/Ti-6246 [un
-cut-cs].jpg>] [2] ("D:\PhD\Thesis\Research Log\build\Research Log.aux") ) 
+cut-cs].jpg>] [2 <../Images/Ti-6246 [cut-EDM].jpg>]
+
+! LaTeX Error: File `"Ti-6246 - Top (500x)"' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...[width=\textwidth]{"Ti-6246 - Top (500x)"}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `"Ti-6246 - CS (500x)"' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...s[width=\textwidth]{"Ti-6246 - CS (500x)"}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3] ("D:\PhD\Thesis\Research Log\build\Research Log.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 12107 strings out of 493673
- 205638 string characters out of 3143957
+ 12128 strings out of 493673
+ 205941 string characters out of 3143957
  272183 words of memory out of 3000000
- 15242 multiletter control sequences out of 15000+200000
+ 15249 multiletter control sequences out of 15000+200000
  10444 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  53i,12n,92p,453b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti10.pfb>
-Output written on "D:/PhD/Thesis/Research Log/build/Research Log.pdf" (2 pages,
- 2555992 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb>
+Output written on "D:/PhD/Thesis/Research Log/build/Research Log.pdf" (3 pages,
+ 5044611 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
