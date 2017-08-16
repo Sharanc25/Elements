@@ -6,9 +6,14 @@
 %\newfont{\punkbx}{punkbx20}
 
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Declarations of Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Command for degree
+\newcommand{\degree}{\ensuremath{^{\circ}}}  
 
 % Defines relative path for all nested input files. 
-
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 \def\input@path{
 {chapters/1.Introduction/},{chapters/2.Literature_Review/},{chapters/3.Experimental_Details/},{chapters/2.Literature_Review/},{chapters/4.Results_and_Discussion/},{Chapters/5.Summary_and_Conclusions/}
@@ -146,15 +151,12 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
 \chapter{My Appendix}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Bibliography or References
 
-\bibtitle{References}
-\begin{thebibliography}{99}
-\bibitem{latex}
-  Lamport, L.  LaTeX:~A Documentation System, Addison-Wesley Publishing Company, 1986.
-\end{thebibliography}
+\bibliographystyle{plainnat}
+
+\bibliography{references}
+
 \end{document}
