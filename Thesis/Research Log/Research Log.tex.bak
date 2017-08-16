@@ -44,7 +44,7 @@
         \label{fig:2b}
     \end{subfigure}
     %\caption{}
-    \label{fig:As-Rec}
+    \label{fig:As-Received}
 \end{figure}
 
 
@@ -61,9 +61,25 @@ The samples were cut in EDM.
 
 
 \newpage
-\renewcommand{\workingDate}{\textsc{2016 $|$ December $|$ 16}}
-\section*{Deposition Parameters}
+\renewcommand{\workingDate}{\textsc{2017 $|$ August $|$ 14}}
+\section*{Initial Microstructure}
 
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti-6246 - Top (500x)"}
+        \caption{Ti-6246 Microstructure; Surface}
+        \label{fig:2a}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti-6246 - CS (500x)"}
+        \caption{Ti-6246 Microstructure; Cross-Section}
+        \label{fig:2b}
+    \end{subfigure}
+    %\caption{}
+    \label{fig:As-Received}
+\end{figure}
 
 
 
