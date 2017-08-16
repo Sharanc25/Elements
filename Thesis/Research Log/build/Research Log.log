@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  16 AUG 2017 14:35
 entering extended mode
 **"Research Log.tex"
 ("Research Log.tex"
@@ -566,7 +566,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks40
 \@floatcapt=\box34
 )
-("D:\PhD\Thesis\Research Log\build\Research Log.aux")
+("D:\PhD\Thesis\Research Log\build\Research Log.aux"
+
+LaTeX Warning: Label `fig:2a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2a' multiply defined.
+
+
+LaTeX Warning: Label `fig:2b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:2b' multiply defined.
+
+
+LaTeX Warning: Label `fig:As-Received' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -581,8 +597,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 18.
@@ -687,44 +702,32 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored! <../Images/Ti-6246 [uncut].jpg> <../Images/Ti-6246 [un
 cut-cs].jpg>] [2 <../Images/Ti-6246 [cut-EDM].jpg>]
+<../Images/"Ti-6246 - Top (500x)".jpg, id=17, 616.704pt x 493.3632pt>
+File: ../Images/"Ti-6246 - Top (500x)".jpg Graphic file (type jpg)
 
-! LaTeX Error: File `"Ti-6246 - Top (500x)"' not found.
+<use ../Images/"Ti-6246 - Top (500x)".jpg>
+Package pdftex.def Info: ../Images/"Ti-6246 - Top (500x)".jpg used on input lin
+e 70.
+(pdftex.def)             Requested size: 200.19054pt x 160.15294pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 ...[width=\textwidth]{"Ti-6246 - Top (500x)"}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../Images/"Ti-6246 - CS (500x)".jpg, id=18, 616.704pt x 493.3632pt>
+File: ../Images/"Ti-6246 - CS (500x)".jpg Graphic file (type jpg)
 
+<use ../Images/"Ti-6246 - CS (500x)".jpg>
+Package pdftex.def Info: ../Images/"Ti-6246 - CS (500x)".jpg used on input line
+ 76.
+(pdftex.def)             Requested size: 200.19054pt x 160.15294pt.
+ [3 <../Images/Ti-6246 - Top (500x).jpg> <../Images/Ti-6246 - CS (500x).jpg>]
+("D:\PhD\Thesis\Research Log\build\Research Log.aux")
 
-! LaTeX Error: File `"Ti-6246 - CS (500x)"' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...s[width=\textwidth]{"Ti-6246 - CS (500x)"}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3] ("D:\PhD\Thesis\Research Log\build\Research Log.aux")
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12128 strings out of 493673
- 205941 string characters out of 3143957
- 272183 words of memory out of 3000000
- 15249 multiletter control sequences out of 15000+200000
+ 12124 strings out of 493673
+ 206214 string characters out of 3143957
+ 272240 words of memory out of 3000000
+ 15256 multiletter control sequences out of 15000+200000
  10444 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  53i,12n,92p,453b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -735,9 +738,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb>
 Output written on "D:/PhD/Thesis/Research Log/build/Research Log.pdf" (3 pages,
- 5044611 bytes).
+ 7844983 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
