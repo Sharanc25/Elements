@@ -9,6 +9,7 @@
 \usepackage{researchdiary_png}
 \usepackage{multirow}
 \usepackage{graphicx}
+\usepackage{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{epstopdf}
