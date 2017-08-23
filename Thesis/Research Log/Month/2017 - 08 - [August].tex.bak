@@ -81,19 +81,21 @@ Etching Time - 5 seconds
 
 \subsection{EDM Cutting}
 The samples were cut in EDM. To identify Surface and Cross-Section samples, an additional groove was made on all the Cross-Section samples. 
+\\
+The Surface and the Cross-Section microstructure are taken from the same sample. The Cross-Section has a thin line to differentiate it from the Surface.
 
 
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.40\textwidth}
         \includegraphics[width=\textwidth]{"Ti6242-1-EDM Cut-1.1.1-Top"}
-        \caption{Ti-6242 EDM Cut; Different Profile for surface and Cross-Section}
+        \caption{Ti-6242 EDM Cut; Surface}
         \label{fig:2a}
     \end{subfigure}
     ~
     \begin{subfigure}{0.40\textwidth}
         \includegraphics[width=\textwidth]{"Ti6242-1-EDM Cut-1.1.1-CS"}
-        \caption{Ti-6242 EDM Cut; Different Profile for surface and Cross-Section}
+        \caption{Ti-6242 EDM Cut; Cross-Section}
         \label{fig:2b}
     \end{subfigure}
     %\caption{}
