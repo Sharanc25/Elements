@@ -98,14 +98,14 @@ The samples were cut in EDM. To identify Surface and Cross-Section samples, an a
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.40\textwidth}
-        \includegraphics[width=\textwidth]{"Ti-6246 [uncut]"}
-        \caption{Ti-6246 As Received; Surface}
+        \includegraphics[width=\textwidth]{"Ti6242-1-EDM Cut-1.1.1-Top"}
+        \caption{Ti-6242 EDM Cut; Different Profile for surface and Cross-Section}
         \label{fig:2a}
     \end{subfigure}
     ~
     \begin{subfigure}{0.40\textwidth}
-        \includegraphics[width=\textwidth]{"Ti-6246 [uncut-cs]"}
-        \caption{Ti-6246 As Received; Cross-Section}
+        \includegraphics[width=\textwidth]{"Ti6242-1-EDM Cut-1.1.1-CS"}
+        \caption{Ti-6242 EDM Cut; Different Profile for surface and Cross-Section}
         \label{fig:2b}
     \end{subfigure}
     %\caption{}
