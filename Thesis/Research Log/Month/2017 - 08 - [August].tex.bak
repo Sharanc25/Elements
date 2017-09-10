@@ -81,9 +81,30 @@ Area fraction of $\alpha$-phase was measured to be 34.7\%
         \label{fig:2a}
     \end{subfigure}
   
-    \caption{Microstructure of Ti-6246 Alloy; Magnification - 1000x}
+    \caption{SEM Microstructure of Ti-6246 Alloy; Magnification - 1000x}
     \label{fig:As-Received-SEM}
 \end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \includegraphics[width=\textwidth]{"Ti6246-1.1.1-CS (500x) - Threshold"}
+        \caption{Ti-6246 Threshold}
+        \label{fig:Ti-6246 Threshold}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.49\textwidth}
+        \includegraphics[width=\textwidth]{"Ti6246-1.1.1-CS (500x) - Outline"}
+        \caption{Ti-6246 Outline}
+        \label{fig:Ti-6246 Outline}
+    \end{subfigure}
+  
+    \caption{Microstructure of Ti-6246 Alloy; Magnification - 500x}
+    \label{fig:As-Received-SEM}
+\end{figure}
+
+
 
 \newpage
 \renewcommand{\workingDate}{\textsc{2017 $|$ August $|$ 22}}
