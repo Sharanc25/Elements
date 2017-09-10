@@ -11,6 +11,7 @@
 \usepackage{subcaption}
 \usepackage{epstopdf}
 \usepackage{float} %% For image placement
+\usepackage{amsmath}
 
 
 \begin{document} 
