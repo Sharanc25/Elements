@@ -41,18 +41,15 @@ Todo: \\
 
 
 {%
-\setbeamertemplate{frame footer}{References}
+\setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879&text=M021507&r3f1=}
 \begin{frame}[fragile]{Frame footer}
-    
+
+\begin{equation}
+Theoretical Density = \dfrac{MW * No.of Molecules per unit volume}{•}
+\end{equation}   
     
 \end{frame}
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Sections}
-
-\end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Titleformats}
 
@@ -67,6 +64,7 @@ Todo: \\
 
 \end{frame}
 }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {
 \metroset{titleformat frame=allsmallcaps}
@@ -81,6 +79,7 @@ Todo: \\
 
 \end{frame}
 }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Elements}
 
@@ -98,6 +97,7 @@ Todo: \\
     \item \texttt{\textbf{\textit{Monospace Bold Italic}}}
   \end{itemize}
 \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Blocks}
   Three different block environments are pre-defined and may be styled with an
@@ -135,6 +135,7 @@ Todo: \\
 
   \end{columns}
 \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{References}
   Some references to showcase [allowframebreaks] \cite{knuth92,ConcreteMath,Simpson,Er01,greenwade93}
@@ -145,6 +146,7 @@ Todo: \\
 \begin{frame}{Summary}
 
 \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {\setbeamercolor{palette primary}{fg=black, bg=yellow}
 \begin{frame}[standout]
@@ -155,8 +157,9 @@ Todo: \\
 \appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{Backup slides}
-
+Test
 \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[allowframebreaks]{References}
 
