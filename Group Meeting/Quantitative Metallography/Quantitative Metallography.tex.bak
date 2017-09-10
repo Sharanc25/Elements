@@ -12,6 +12,8 @@
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
+\usepackage{amsmath}
+
 \title{Quantitative Metallography}
 \subtitle{Quantitative Metallography}
 \date{\today}
@@ -41,11 +43,11 @@ Todo: \\
 
 
 {%
-\setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879&text=M021507&r3f1=}
+\setbeamertemplate{frame footer}{Slide 14 - }
 \begin{frame}[fragile]{Frame footer}
 
 \begin{equation}
-Theoretical Density = \dfrac{MW * No.of Molecules per unit volume}{•}
+Theoretical Density = \dfrac{MW * No.of Molecules per unit volume}{Volume of unit cell * Avogadro number}
 \end{equation}   
     
 \end{frame}
