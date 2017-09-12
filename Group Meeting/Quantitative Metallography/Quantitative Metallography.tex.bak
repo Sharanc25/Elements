@@ -41,6 +41,17 @@ Todo: \\
 \end{frame}
 
 
+\begin{frame}{Notations}
+
+\begin{block}{Standard Notations}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.5\textwidth}
+  
+\end{block}
+
+\end{frame}
+
+
 
 {%
 \setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
@@ -60,16 +71,9 @@ Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{
 Areal Fraction:
 \begin{block}{Error}
 \begin{equation*}
-V_{v} = \dfrac{•}{A_{T}}
+V_{v} = \dfrac{\sum A_{A}}{A_{T}}
 \end{equation*} 
 \end{block}
-
-
-Lineal Fraction:
-
-
-Point Fraction:
-
 
 Error in Areal Fraction is given by:
 \begin{block}{Error}
@@ -77,6 +81,14 @@ Error in Areal Fraction is given by:
 E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\bar{A}} \right)^{2} \right]
 \end{equation*} 
 \end{block}
+
+Lineal Fraction:
+
+
+Point Fraction:
+
+
+
  
     
 \end{frame}
@@ -84,9 +96,7 @@ E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\bar{A}} \right)^{2} \ri
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Titleformats}
 
-\begin{frame}{Metropolis titleformats}
 
-\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {
