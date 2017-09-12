@@ -40,13 +40,29 @@ Todo: \\
 3. 
 \end{frame}
 
+\metroset{block=fill}
 
 \begin{frame}{Notations}
 
 \begin{block}{Standard Notations}
+\hspace{1em}
   \begin{columns}[T,onlytextwidth]
-    \column{0.5\textwidth}
+    \column{0.3\textwidth}
+    P Points \\
+    L Lines
+    
   
+ 
+    \column{0.3\textwidth}
+   A Flat Areas \\
+   S Curved Surfaces
+ 
+  
+    \column{0.3\textwidth}
+    V Volume \\
+    N Number
+  \end{columns} 
+    
 \end{block}
 
 \end{frame}
@@ -67,7 +83,6 @@ Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{
 {%
 \setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
 \begin{frame}[fragile]{Volume Fraction}
-\metroset{block=fill}
 Areal Fraction:
 \begin{block}{Error}
 \begin{equation*}
@@ -123,26 +138,7 @@ Point Fraction:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Blocks}
-  Three different block environments are pre-defined and may be styled with an
-  optional background color.
-
-  \begin{columns}[T,onlytextwidth]
-    \column{0.5\textwidth}
-      \begin{block}{Default}
-        Block content.
-      \end{block}
-
-      \begin{alertblock}{Alert}
-        Block content.
-      \end{alertblock}
-
-      \begin{exampleblock}{Example}
-        Block content.
-      \end{exampleblock}
-
-    \column{0.5\textwidth}
-
-      \metroset{block=fill}
+ 
 
       \begin{block}{Default}
         Block content.
@@ -156,7 +152,7 @@ Point Fraction:
         Block content.
       \end{exampleblock}
 
-  \end{columns}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
