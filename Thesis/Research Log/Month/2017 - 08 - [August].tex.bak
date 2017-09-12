@@ -110,8 +110,8 @@ Mean Area - 22.58 $\mu m^{2}$, Standard Deviation - 34.81 $\mu m^{2}$, E$_{A}$ -
 \\
 Error is given by:
 \begin{equation}
-E_{A}^{2} = \dfrac{1}{N}[1+(\dfrac{\sigma}{\overline A})^{2}]
-\end{equation}
+E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\overline A} \right)^{2} \right]
+\end{equation} 
 
 
 

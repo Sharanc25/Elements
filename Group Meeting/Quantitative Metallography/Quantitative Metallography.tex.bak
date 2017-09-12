@@ -61,7 +61,7 @@ Error in Areal Fraction is given by:
 \metroset{block=fill}
 \begin{block}{Error}
 \begin{equation*}
-E_{A}^{2} = \dfrac{1}{N}[1+(\dfrac{\sigma}{\overline A})^{2}]
+E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\overline A} \right)^{2} \right]
 \end{equation*} 
 \end{block}
  
