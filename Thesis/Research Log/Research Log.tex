@@ -22,13 +22,16 @@
 }
 \usepackage{inputx} % Make relative paths work for \include command - https://tex.stackexchange.com/questions/4602/how-to-make-the-main-file-recognize-relative-paths-used-in-the-imported-files
 
-\inputpaths{Month}
+
 
 
 
 \begin{document} 
 %% Adds images directory for each chapter
 \graphicspath{{../Images/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/}} 
+
+%Relative path for \include commands. From inputx custom package.
+\inputpaths{Month} 
 
 \iffalse %Works only with input command
 %http://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
