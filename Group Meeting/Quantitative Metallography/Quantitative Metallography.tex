@@ -85,18 +85,21 @@ Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{
 \setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
 \begin{frame}[fragile]{Volume Fraction}
 Areal Fraction:
-\begin{block}{Error}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.5\textwidth}
+\begin{block}{default}
 \begin{equation*}
 V_{v} = \dfrac{\sum A_{A}}{A_{T}}
 \end{equation*} 
 \end{block}
-
+ \column{0.5\textwidth}
 Error in Areal Fraction is given by:
 \begin{block}{Error}
 \begin{equation*}
 E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\bar{A}} \right)^{2} \right]
 \end{equation*} 
 \end{block}
+\end{columns
 
 Lineal Fraction:
 
