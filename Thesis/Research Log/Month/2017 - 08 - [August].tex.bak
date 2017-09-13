@@ -84,6 +84,7 @@ Etching Time - 5 seconds
     \label{fig:As-Received-SEM}
 \end{figure}
 
+\subsection{Area Fraction Analysis}
 
 \begin{figure}[H]
     \centering
@@ -175,6 +176,10 @@ Etching Time - 5 seconds
     \caption{Microstructure of Ti-6242 Alloy; Magnification - 500x}
     \label{fig:As-Received}
 \end{figure}
+
+
+\subsection{Area Fraction Analysis}
+
 
 \begin{figure}[H]
     \centering
