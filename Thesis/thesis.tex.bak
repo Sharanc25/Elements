@@ -9,7 +9,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Declarations of Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\iffalse
 %% Command for degree
 \newcommand{\degree}{\ensuremath{^{\circ}}}  
 
@@ -132,17 +131,17 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Introduction
-\input{Chapters/1.Introduction/Introduction}
+%\input{Introduction}
 % Literature Review
-\input{Chapters/2.Literature_Review/Literature_Review}
+\input{Literature_Review}
 % Experimental Details
-\input{Chapters/3.Experimental_Details/Experimental_Details}
+%\input{Experimental_Details}
 % Results and Discussion
-\input{Chapters/4.Results_and_Discussion/Results_and_Discussion}
+%\input{Results_and_Discussion}
 % Summary And Conclusions
-\input{chapters/5.Summary_and_Conclusions/Summary_and_Conclusions}
+%\input{Summary_and_Conclusions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\fi
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
