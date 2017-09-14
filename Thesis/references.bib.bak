@@ -1,0 +1,651 @@
+@misc{cecam,
+title = {{CECAM}},
+url = {https://www.cecam.org/workshop-0-1019.html},
+urldate = {2017-09-14}
+}
+@book{bhavikatti1994engineering,
+  title={Engineering Mechanics},
+  author={Bhavikatti, S.S. and Rajashekarappa, K.G.},
+  isbn={9788122406177},
+  lccn={92036073},
+  year={1994},
+  publisher={J. Wiley}
+}
+@phdthesis{sachinthesis,
+  title={Analytical Modeling for Heat Generation Rate in Friction Welding of Tube to Tube Plate using an External Tool},
+  author={More Sachin Ashruba},
+  year={2014},
+  publisher={National Institute of Technology, Tiruchirappalli},
+  school = {National Institute of Technology, Tiruchirappalli},
+}
+@article{male1964method,
+  title={A method for the determination of the coefficient of friction of metals under conditions of bulk plastic deformation},
+  author={Male, Alan T},
+  journal={J. Inst. Metal.},
+  volume={93},
+  pages={38--46},
+  year={1964}
+}
+@article{pederson2001use,
+  title={Use of high temperature x-ray diffractometry to study phase transitions in {Ti-6Al-4V}},
+  author={Pederson, Robert and Babushkin, O and Warren, Richard and Skystedt, F},
+  journal={Titanium alloys at elevated temperature: structural development and service behaviour},
+  year={2001},
+  publisher={Institute of Materials}
+}
+@phdthesis{vijayakumarthesis,
+  title={Friction Welding of Steel Tube to Aluminium Tube Plate using an external tool - A Study},
+  author={VijayaKumar},
+  year={2012},
+  publisher={National Institute of Technology, Tiruchirappalli},
+  school = {National Institute of Technology, Tiruchirappalli},
+}
+@article{marinkovic2001comparison,
+  title={A comparison between the Warren-Averbach method and alternate methods for X-ray diffraction microstructure analysis of polycrystalline specimens},
+  author={Marinkovic, Bojan and Avillez, Roberto Ribeiro de and Saavedra, Alvaro and Assun{\c{c}}{\~a}o, Fernando Cosme Rizzo},
+  journal={Materials Research},
+  volume={4},
+  number={2},
+  pages={71--76},
+  year={2001},
+  publisher={SciELO Brasil}
+}
+@article{Harada2014,
+ title={Dissimilar joining of AA2024 aluminum studs and AZ80 magnesium plates by high-speed solid-state welding},
+  author={Harada, Yohei and Sada, Yutaro and Kumai, Shinji},
+  journal={Journal of Materials Processing Technology},
+  volume={214},
+  number={2},
+  pages={477--484},
+  year={2014},
+  publisher={Elsevier}
+}
+%%%%%%%% Introduction %%%%%%%%%%
+@article{ozturk2010influence,
+  title={Influence of aging treatment on mechanical properties of 6061 aluminum alloy},
+  author={Ozturk, F and Sisman, A and Toros, S and Kilic, S and Picu, RC},
+  journal={Materials \& Design},
+  volume={31},
+  number={2},
+  pages={972--975},
+  year={2010},
+  publisher={Elsevier}
+}
+@article{mrowka2005influence,
+  title={Influence of heat treatment on the microstructure and mechanical properties of 6005 and 6082 aluminium alloys},
+  author={Mr{\'o}wka-Nowotnik, Gra{\.z}yna and Sieniawski, Jan},
+  journal={Journal of Materials Processing Technology},
+  volume={162},
+  pages={367--372},
+  year={2005},
+  publisher={Elsevier}
+}
+@article{missori2000mechanical,
+  title={Mechanical behaviour of 6082-T6 aluminium alloy welds},
+  author={Missori, S and Sili, A},
+  journal={Metallurgical science and technology},
+  volume={18},
+  number={1},
+  pages={12--18},
+  year={2000}
+}
+@article{radlbeck2004sustainability,
+  title={Sustainability of aluminium in buildings},
+  author={Radlbeck, Christina and Dienes, Eszter and Kosteas, Dimitris},
+  journal={Structural engineering international},
+  volume={14},
+  number={3},
+  pages={221--224},
+  year={2004},
+  publisher={International Association for Bridge and Structural Engineering}
+}
+@article{vaidya2010improving,
+  title={Improving interfacial properties of a laser beam welded dissimilar joint of aluminium {AA6056} and titanium {Ti6Al4V} for aeronautical applications},
+  author={Vaidya, WV and Horstmann, M and Ventzke, V and Petrovski, B and Ko{\c{c}}ak, M and Kocik, R and Tempus, G},
+  journal={Journal of materials science},
+  volume={45},
+  number={22},
+  pages={6242--6254},
+  year={2010},
+  publisher={Springer}
+}
+@article{fuji1997mechanical,
+  title={Mechanical properties of titanium-5083 aluminium alloy friction joints},
+  author={Fuji, A and Kimura, M and North, TH and Ameyama, K and Aki, M},
+  journal={Materials science and technology},
+  volume={13},
+  number={8},
+  pages={673--678},
+  year={1997},
+  publisher={Maney Publishing Suite 1C, Joseph's Well, Hanover Walk, Leeds LS3 1AB, UK}
+}
+@article{takemoto1988intermetallic,
+  title={Intermetallic compounds formed during brazing of titanium with aluminium filler metals},
+  author={Takemoto, Tadashi and Okamoto, Ikuo},
+  journal={Journal of materials science},
+  volume={23},
+  number={4},
+  pages={1301--1308},
+  year={1988},
+  publisher={Springer}
+}
+@article{ege2000stability,
+  title={Stability of interfaces in explosively-welded aluminum-titanium laminates},
+  author={Ege, ES and Inal, OT},
+  journal={Journal of materials science letters},
+  volume={19},
+  number={17},
+  pages={1533--1535},
+  year={2000},
+  publisher={Springer}
+}
+@article{majumdar1997formation,
+  title={Formation of a crack-free joint between Ti alloyand Al alloy by using a high-power CO2 laser},
+  author={Majumdar, B and Galun, R and Weisheit, A and Mordike, BL},
+  journal={Journal of materials science},
+  volume={32},
+  number={23},
+  pages={6191--6200},
+  year={1997},
+  publisher={Springer}
+}
+@article{engler2002texture,
+  title={Texture control by thermomechanical processing of {AA6xxx Al--Mg--Si} sheet alloys for automotive applications - a review},
+  author={Engler, Olaf and Hirsch, J{\"u}rgen},
+  journal={Materials Science and Engineering: A},
+  volume={336},
+  number={1},
+  pages={249--262},
+  year={2002},
+  publisher={Elsevier}
+}
+@article{li1997laser,
+  title={Laser welding for lightweight structures},
+  author={Li, Z and Gobbi, SL},
+  journal={Journal of materials processing technology},
+  volume={70},
+  number={1},
+  pages={137--144},
+  year={1997},
+  publisher={Elsevier}
+}
+%%%%%%%% FWTPET Process %%%%%%%%%%
+@article{krishnan1990experimental,
+  title={An experimental investigation into tube to tube-plate welding using the impactor method},
+  author={Krishnan, J and Kakodkar, A and Reddy, GP and Yadav, HS and Haldar, G and Patil, BT},
+  journal={Journal of materials processing technology},
+  volume={22},
+  number={2},
+  pages={191--201},
+  year={1990},
+  publisher={Elsevier}
+}
+@article{bahrani1973parallel,
+  title={Parallel technique of tube to tubeplate welding applied to plugging of heat exchangers},
+  author={Bahrani, AS and Halliburton, RF and Crossland, B},
+  journal={International Journal of Pressure Vessels and Piping},
+  volume={1},
+  number={1},
+  pages={17--35},
+  year={1973},
+  publisher={Elsevier}
+}
+@article{vorob2002analysis,
+  title={Analysis of the process of explosion braze-welding of heat exchanger tube plates},
+  author={Vorob'ev, Yu S and Chernobryvko, MV and Kolodyazhnyi, AV and Kruszka, L},
+  journal={Strength of materials},
+  volume={34},
+  number={4},
+  pages={407--411},
+  year={2002},
+  publisher={Springer}
+}
+@article{kumaran2010experimental,
+  title={Experimental and numerical investigation of weld joints produced by friction welding of tube to tube plate using an external tool},
+  author={Kumaran, S Senthil and Muthukumaran, S and Vinodh, S},
+  journal={Int. J. Eng. Sci. Technol},
+  volume={2},
+  number={5},
+  pages={109--117},
+  year={2010}
+}
+@article{kumaran2011optimization,
+  title={Optimization of friction welding of tube to tube plate using an external tool by hybrid approach},
+  author={Kumaran, S Senthil and Muthukumaran, S and Vinodh, S},
+  journal={Journal of Alloys and Compounds},
+  volume={509},
+  number={6},
+  pages={2758--2769},
+  year={2011},
+  publisher={Elsevier}
+}
+@article{kumaran2011optimization,
+  title={Optimization of friction welding of tube-to-tube plate using an external tool by Taguchi method and genetic algorithm},
+  author={Kumaran, S Senthil and Muthukumaran, S and Vinodh, S},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={57},
+  number={1-4},
+  pages={167--182},
+  year={2011},
+  publisher={Springer}
+}
+%%%%%%%% Welding of Ti-6Al-4V and AA6061 %%%%%%%%%%
+@article{wu2015interface,
+  title={Interface and properties of the friction stir welded joints of titanium alloy {Ti6Al4V} with aluminum alloy 6061},
+  author={Wu, Aiping and Song, Zhihua and Nakata, Kazuhiro and Liao, Jinsun and Zhou, Li},
+  journal={Materials \& Design},
+  volume={71},
+  pages={85--92},
+  year={2015},
+  publisher={Elsevier}
+}
+@article{song2014influence,
+  title={Influence of probe offset distance on interfacial microstructure and mechanical properties of friction stir butt welded joint of {Ti6Al4V} and {A6061} dissimilar alloys},
+  author={Song, Zhihua and Nakata, Kazuhiro and Wu, Aiping and Liao, Jinsun and Zhou, Li},
+  journal={Materials \& Design},
+  volume={57},
+  pages={269--278},
+  year={2014},
+  publisher={Elsevier}
+}
+%%%%%%%% Welding of AA6061 %%%%%%%%%%
+@article{elangovan2009predicting,
+  title={Predicting tensile strength of friction stir welded AA6061 aluminium alloy joints by a mathematical model},
+  author={Elangovan, K and Balasubramanian, V and Babu, S},
+  journal={Materials \& Design},
+  volume={30},
+  number={1},
+  pages={188--193},
+  year={2009},
+  publisher={Elsevier}
+}
+@article{lakshminarayanan2009effect,
+  title={Effect of welding processes on tensile properties of AA6061 aluminium alloy joints},
+  author={Lakshminarayanan, AK and Balasubramanian, V and Elangovan, K},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={40},
+  number={3-4},
+  pages={286--296},
+  year={2009},
+  publisher={Springer}
+}
+@article{moreira2009mechanical,
+  title={Mechanical and metallurgical characterization of friction stir welding joints of {AA6061-T6} with {AA6082-T6}},
+  author={Moreira, PMGP and Santos, T and Tavares, SMO and Richter-Trummer, V and Vila{\c{c}}a, P and De Castro, PMST},
+  journal={Materials \& Design},
+  volume={30},
+  number={1},
+  pages={180--187},
+  year={2009},
+  publisher={Elsevier}
+}
+%%%%%%%% Welding of Ti-6Al-4V %%%%%%%%%%
+@article{cao2009effect,
+  title={Effect of welding speed on butt joint quality of Ti--6Al--4V alloy welded using a high-power Nd: YAG laser},
+  author={Cao, X and Jahazi, M},
+  journal={Optics and Lasers in Engineering},
+  volume={47},
+  number={11},
+  pages={1231--1241},
+  year={2009},
+  publisher={Elsevier}
+}
+@article{zhang2008microstructural,
+  title={Microstructural characteristics and mechanical properties of {Ti--6Al--4V} friction stir welds},
+  author={Zhang, Yu and Sato, Yutaka S and Kokawa, Hiroyuki and Park, Seung Hwan C and Hirano, Satoshi},
+  journal={Materials Science and Engineering: A},
+  volume={485},
+  number={1},
+  pages={448--455},
+  year={2008},
+  publisher={Elsevier}
+}
+@article{elmer2004phase,
+  title={Phase transformation dynamics during welding of Ti--6Al--4V},
+  author={Elmer, JW and Palmer, TA and Babu, SS and Zhang, W and DebRoy, T},
+  journal={Journal of applied physics},
+  volume={95},
+  number={12},
+  pages={8327--8339},
+  year={2004},
+  publisher={AIP Publishing}
+}
+%%%%%%%% Heat Input References %%%%%%%%%%
+@article{roth2014analytical,
+  title={An Analytical Approach of Modelling Friction Stir Welding},
+  author={Roth, A and Hake, T and Zaeh, MF},
+  journal={Procedia CIRP},
+  volume={18},
+  pages={197--202},
+  year={2014},
+  publisher={Elsevier}
+}
+@article{kumar2009investigation,
+  title={An investigation of friction during friction stir welding of metallic materials},
+  author={Kumar, K and Kalyan, C and Kailas, Satish V and Srivatsan, Tirumalai S},
+  journal={Materials and Manufacturing Processes},
+  volume={24},
+  number={4},
+  pages={438--445},
+  year={2009},
+  publisher={Taylor \& Francis}
+}
+@article{colligan2008conceptual,
+  title={A conceptual model for the process variables related to heat generation in friction stir welding of aluminum},
+  author={Colligan, Kevin J and Mishra, Rajiv S},
+  journal={Scripta Materialia},
+  volume={58},
+  number={5},
+  pages={327--331},
+  year={2008},
+  publisher={Elsevier}
+}
+@article{colegrove2007model,
+  title={Model for predicting heat generation and temperature in friction stir welding from the material properties},
+  author={Colegrove, Paul A and Shercliff, Hugh R and Zettler, Rudolf},
+  journal={Science and Technology of Welding \& Joining},
+  volume={12},
+  number={4},
+  pages={284--297},
+  year={2007},
+  publisher={Maney Publishing}
+}
+@article{khandkar2003prediction,
+  title={Prediction of temperature distribution and thermal history during friction stir welding: input torque based model},
+  author={Khandkar, MZH and Khan, Jamil A and Reynolds, Anthony P},
+  journal={Science and Technology of Welding \& Joining},
+  volume={8},
+  number={3},
+  pages={165--174},
+  year={2003},
+  publisher={Maney Publishing}
+}
+@article{balasubramanian1999new,
+  title={A new friction law for the modelling of continuous drive friction welding: applications to 1045 steel welds},
+  author={Balasubramanian, Vikram and Li, Youlin and Stotler, Tim and Crompton, Jeff and Soboyejo, Alfred and Katsube, Noriko and Soboyejo, Wole},
+  journal={Materials and manufacturing processes},
+  volume={14},
+  number={6},
+  pages={845--860},
+  year={1999},
+  publisher={Taylor \& Francis}
+}
+@article{selvaraj2013mechanism,
+  title={Mechanism of Weld Formation during Friction Stir Welding of Aluminum Alloy},
+  author={Selvaraj, M and Murali, Vela and Koteswara Rao, SR},
+  journal={Materials and Manufacturing Processes},
+  volume={28},
+  number={5},
+  pages={595--600},
+  year={2013},
+  publisher={Taylor \& Francis}
+}
+@article{ferro2010semianalytical,
+  title={A semianalytical thermal model for fiction stir welding},
+  author={Ferro, P and Bonollo, F},
+  journal={Metallurgical and Materials Transactions A},
+  volume={41},
+  number={2},
+  pages={440--449},
+  year={2010},
+  publisher={Springer}
+}
+@article{schmidt2004analytical,
+  title={An analytical model for the heat generation in friction stir welding},
+  author={Schmidt, H and Hattel, Jesper and Wert, John},
+  journal={Modelling and Simulation in Materials Science and Engineering},
+  volume={12},
+  number={1},
+  pages={143},
+  year={2004},
+  publisher={IOP Publishing}
+}
+@incollection{yilbas2014thermal,
+  title={Thermal Analysis of Friction Welding},
+  author={Yilbas, Bekir Sami and Sahin, Ahmet Z},
+  booktitle={Friction Welding},
+  pages={5--46},
+  year={2014},
+  publisher={Springer}
+}
+%%%%%%%%%%%%%%
+
+@article{demir2009effects,
+  title={The effects of aging on machinability of 6061 aluminium alloy},
+  author={Demir, Halil and G{\"u}nd{\"u}z, S{\"u}leyman},
+  journal={Materials \& Design},
+  volume={30},
+  number={5},
+  pages={1480--1483},
+  year={2009},
+  publisher={Elsevier}
+}
+@article{moustahfid1997study,
+  title={Study of the $\beta$-$\alpha$ phase transformations of a Ti-64 sheet induced from a high-temperature $\beta$ state and a high-temperature $\alpha$+ $\beta$ state},
+  author={Moustahfid, H and Gey, N and Humbert, M and Philippe, MJ},
+  journal={Metallurgical and Materials Transactions A},
+  volume={28},
+  number={1},
+  pages={51--61},
+  year={1997},
+  publisher={Springer}
+}
+@article{lee1991elastic,
+  title={Elastic moduli and tensile and physical properties of heat-treated and quenched powder metallurgical {Ti-6Al-4V} alloy},
+  author={Lee, YT and Peters, M and Welsch, G},
+  journal={Metallurgical Transactions A},
+  volume={22},
+  number={3},
+  pages={709--714},
+  year={1991},
+  publisher={Springer}
+}
+@article{lutjering1998influence,
+  title={Influence of processing on microstructure and mechanical properties of ($\alpha$+ $\beta$) titanium alloys},
+  author={L{\"u}tjering, G},
+  journal={Materials Science and Engineering: A},
+  volume={243},
+  number={1},
+  pages={32--45},
+  year={1998},
+  publisher={Elsevier}
+}
+@article{lathabai2001comparison,
+  title={Comparison of keyhole and conventional gas tungsten arc welds in commercially pure titanium},
+  author={Lathabai, S and Jarvis, BL and Barton, KJ},
+  journal={Materials Science and Engineering: A},
+  volume={299},
+  number={1},
+  pages={81--93},
+  year={2001},
+  publisher={Elsevier}
+}
+@article{senthil2012eco,
+  title={Eco-friendly aspects associated with friction welding of tube-to-tube plate using an external tool process},
+  author={Senthil Kumaran, S and Muthukumaran, S and Venkateswarlu, D and Balaji, GK and Vinodh, S},
+  journal={International Journal of Sustainable Engineering},
+  volume={5},
+  number={2},
+  pages={120--127},
+  year={2012},
+  publisher={Taylor \& Francis}
+}
+@article{muthukumaran2008process,
+ author = {Muthukumaran, S},
+ title={A Process for Friction Welding Tube to a Tube Sheet or Plate by Adopting an External Tool},
+ year={2008},
+ month = {03},
+ day = {28},
+ number = {IN 217446},
+ type = {Patent},
+ location = {India},
+ filing_num = {10684114},
+ yearfiled = {2003},
+ monthfiled = {10},
+ dayfiled = {14},
+ pat_refs = {US 408607 A (Aug, 1889) Flint 607/134; US 4210141 A (Jul, 1980) Brockman et al. 604/78},
+ IPC_class = {A61N 1/04},
+ US_class = {607  2},
+ journal={Indian Patent Application No. 21744},
+ volume={189},
+}
+@article{kumaran2010experimental,
+  title={Experimental and numerical investigation of weld joints produced by friction welding of tube to tube plate using an external tool},
+  author={Kumaran, S Senthil and Muthukumaran, S and Vinodh, S},
+  journal={Int. J. Eng. Sci. Technol},
+  volume={2},
+  number={5},
+  pages={109--117},
+  year={2010}
+}
+@article{elangovan2008influences,
+  title={Influences of post-weld heat treatment on tensile properties of friction stir-welded AA6061 aluminum alloy joints},
+  author={Elangovan, K and Balasubramanian, V},
+  journal={Materials characterization},
+  volume={59},
+  number={9},
+  pages={1168--1177},
+  year={2008},
+  publisher={Elsevier}
+}
+@article{muthukumaran2010mechanical,
+  title={Optimization of friction welding of tube-to-tube plate using an external tool by Taguchi method and genetic algorithm},
+  author={Kumaran, S Senthil and Muthukumaran, S and Vinodh, S},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={57},
+  number={1-4},
+  pages={167--182},
+  year={2011},
+  publisher={Springer}
+}
+@article{kumaran2010optimization,
+year={2010},
+issn={1615-147X},
+journal={Structural and Multidisciplinary Optimization},
+volume={42},
+number={3},
+doi={10.1007/s00158-010-0509-7},
+title={Optimization of friction welding of tube to tube plate using an external tool},
+url={http://dx.doi.org/10.1007/s00158-010-0509-7},
+publisher={Springer-Verlag},
+keywords={Friction welding; Tube to tube plate welding; Taguchi method; Genetic algorithm},
+author={Senthil Kumaran, S. and Muthukumaran, S. and Vinodh, S.},
+pages={449-457},
+language={English}
+}
+@article{Balaji2012,
+author = {Balaji, G. K. and Muthukumaran, S. and Senthilkumaran, S. and Pradeep, A.},
+doi = {10.1007/s11665-011-0008-z},
+file = {:D$\backslash$:/MS/My Work/Reference Papers/Muthukumaran/Optimization of Friction Welding of Tube-to-Tube Plate Using an External Tool with Filler Plate.pdf:pdf},
+isbn = {1059-9495},
+issn = {1059-9495},
+journal = {Journal of Materials Engineering and Performance},
+keywords = {fwtpet,taguchi method,tube to tube plate,welding},
+month = {jul},
+number = {7},
+pages = {1199--1204},
+title = {{Optimization of Friction Welding of Tube-to-Tube Plate Using an External Tool with Filler Plate}},
+url = {http://link.springer.com/10.1007/s11665-011-0008-z},
+volume = {21},
+year = {2012}
+}
+@article{boyermaterials,
+  title={Materials Properties Handbook: Titanium Alloys, 1994},
+  author={Boyer, Rodney and Welsch, G and Collings, EW},
+  journal={ASM International, Materials Park, OH}
+}
+@article{aonuma2011dissimilar,
+  title={Dissimilar metal joining of 2024 and 7075 aluminium alloys to titanium alloys by friction stir welding},
+  author={Aonuma, Masayuki and Nakata, Kazuhiro},
+  journal={Materials transactions},
+  volume={52},
+  number={5},
+  pages={948--952},
+  year={2011},
+  publisher={The Japan Institute of Metals and Materials}
+}
+@article{dressler2009friction,
+  title={Friction stir welding of titanium alloy {TiAl6V4} to aluminium alloy {AA2024-T3}},
+  author={Dressler, Ulrike and Biallas, Gerhard and Mercado, Ulises Alfaro},
+  journal={Materials Science and Engineering: A},
+  volume={526},
+  number={1},
+  pages={113--117},
+  year={2009},
+  publisher={Elsevier}
+}
+@article{cao2013mechanisms,
+  title={Mechanisms of joining aluminium {A6061-T6} and titanium {Ti-6Al-4V} alloys by cold metal transfer technology},
+  author={Cao, R and Sun, JH and Chen, JH},
+  journal={Science and Technology of Welding and Joining},
+  volume={18},
+  number={5},
+  pages={425--433},
+  year={2013},
+  publisher={Maney Publishing Suite 1C, Joseph's Well, Hanover Walk, Leeds LS3 1AB, UK}
+}
+@article{el2015unravelling,
+  title={Unravelling the physics of size dependent dislocation mediated plasticity},
+  author={El-Awady, Jaafar A},
+  journal={Nature communications},
+  volume={6},
+  year={2015},
+  number={5926},
+  pages={5926},
+  publisher={Nature Publishing Group}
+}
+@article{kumaran2014effect,
+  title={Effect of projection on joint properties of friction welding of tube-to-tube plate using an external tool},
+  author={Kumaran, S Senthil and Muthukumaran, S},
+  journal={The International Journal of Advanced Manufacturing Technology},
+  volume={75},
+  number={9-12},
+  pages={1723--1733},
+  year={2014},
+  publisher={Springer}
+}
+@article{senthil2013effect,
+  title={Effect of Tube Preparations on Joint Strength in Friction Welding of Tube-to-Tube Plate Using an External Tool Process},
+  author={Senthil Kumaran, S and Muthukumaran, S and Chandrasekhar Reddy, C},
+  journal={Experimental Techniques},
+  volume={37},
+  number={3},
+  pages={24--32},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+@phdthesis{pederson2002microstructure,
+  title={Microstructure and Phase transformation of {Ti-6Al-4V}},
+  author={Pederson, Robert},
+  year={2002},
+  publisher={Lule{\aa} tekniska universitet},
+  school = {Lule{\aa} tekniska universitet},
+}
+@article{starink2008strength,
+  title={The strength of friction stir welded and friction stir processed aluminium alloys},
+  author={Starink, MJ and Deschamps, A and Wang, SC},
+  journal={Scripta Materialia},
+  volume={58},
+  number={5},
+  pages={377--382},
+  year={2008},
+  publisher={Elsevier}
+}
+@article{oertelt2001effect,
+  title={Effect of thermal cycling on friction stir welds of 2195 aluminum alloy},
+  author={Oertelt, G and Babu, SS and David, SA and Kenik, EA},
+  journal={Welding journal},
+  volume={80},
+  number={3},
+  pages={71--79},
+  year={2001}
+}
+@article{kumaran2011optimization,
+  title={Optimizational study of friction welding of steel tube to aluminum tube plate using an external tool process},
+  author={Kumar, CV and Muthukumaran, S and Pradeep, A and Kumaran, SS},
+  journal={International Journal of Mechanical and Materials Engineering},
+  volume={6},
+  number={2},
+  pages={300--306},
+  year={2011}
+}

@@ -20,7 +20,7 @@ During the operation of a gas turbine engine in a jet aircraft the turbine blade
 
 
 \section{Cold Dwell Fatigue in titanium} 
-\citep{Balaji2012}
+\citep{cecam}
 The occurrence of cold dwell fatigue in Ti-alloys is 40 years old. It was first detected in two Ti-alloy disks in RR RB211 engines on Lockheed Tristar aircraft in 1972/73. It continues to be a serious problem for the producers and operators of aircraft, because periodic inspections of the fan disk and blades are required during service, and the replacement of rotor components in which cracks are detected. It also leads to the over-design of disks and blades, with a consequent increase in the rate of fuel consumption, adding up to a huge amount of fuel over the lifetime of a commercial aircraft.
 
 Cold dwell fatigue remains an unsolved engineering problem. Its complexity raises a host of fundamental questions about plasticity, creep and fracture in Ti and its alloys. It is possible it is so complex it may never be solved. But the issues it raises provide very challenging and fertile problems to stretch the current capabilities of materials simulation.
@@ -48,3 +48,11 @@ A fundamental approach to the problem of cold dwell fatigue involves the followi
 3. Why does the addition of Mo suppress cold dwell fatigue? One possible explanation is that it increases the volume fraction of beta phase, thus reducing the volume fraction occupied by the alpha phase. Another possible explanation is that Mo forms complexes with the vacancies created extrinsically by the Fe, Co and Ni impurities becoming interstitial defects. In that case creep would be suppressed because diffusion could no longer take place at such low temperatures, and hence the stress redistribution necessary for cold dwell fatigue would not occur. Again there is a need for accurate simulations to model such complexes and their energetics.
 
 4. Why does raising the temperature to only 200C suppress cold dwell fatigue? This is presumably a result of some mechanism relieving stress concentrations at grain boundaries that would otherwise result in crack nucleation. The fact that it is only a 200C temperature rise that is required indicates that it is probably related to a diffusional relaxation mechanism enabling slip transmission or some accommodation mechanism at the grain boundaries. Here there is a need for molecular dynamics simulations of pile-ups at grain boundaries as a function of temperature.
+
+References
+
+1. "Titanium", Lutjering, Gerd and Williams, James C., Jr., Springer (2007)
+2. F P E Dunne, A Walker and D Rugg, Proc. R. Soc. Lond. A, 463 (2007), 1467.
+3. M Benoit et al., Modelling Simul. Mater. Sci. Eng., 21 (2013), 015009
+4. A Valladares et al., Phys. Rev. Lett., 81 (1998), 4903.
+5. M Koppers et al. Acta Mater., 45 (1997), 4181.
