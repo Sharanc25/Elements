@@ -11,9 +11,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Declarations of Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Command for degree
-%\newcommand{\degree}{\ensuremath{^{\circ}}}  
-
 % Defines relative path for all nested input files. 
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 \def\input@path{
@@ -30,6 +27,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                         THE TITLEPAGE                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Command for degree
+\newcommand{\degree}{\ensuremath{^{\circ}}}  
 
 \title{Primary Alpha, Transformed Beta and Low Cycle Fatigue\\ 
 	   Ti6242 and Ti6246\\
