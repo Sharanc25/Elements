@@ -1,6 +1,21 @@
 % This document describes how to use iiscthesis style
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentstyle[12pt]{iiscthes}
+\documentclass[12pt]{iiscthes} %Changed documentstyle to documentclass to upgrade the document to LaTex2e.
+
+% Custom Packages
+\usepackage[square,comma,sort&compress]{natbib}
+\usepackage{hyperref} % hyperlinks for references.
+\usepackage{amsmath} % easier math formulae, align, subequations \ldots
+\usepackage{amssymb} 
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float} %% For image placement
+\usepackage{multirow} %% For Multi-Row functionality in tables
+\usepackage[hang]{caption}
+\usepackage{subcaption}
+\usepackage{mhchem}
+
 
 \pagestyle{bfheadings}
 
@@ -11,13 +26,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Declarations of Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\ben}{\begin{enumerate}}      
-\newcommand{\een}{\end{enumerate}}
-
-
 %% Command for degree Celcius/Farenheit
-%\newcommand{\deg}{A}  % Degree command is already used by iiscthes.cls
-\newcommand{\sharan}{\ensuremath{^{\circ}}}
+\newcommand{\degC}{\ensuremath{^{\circ}}C}  % Degree command is already used by iiscthes.cls
+\newcommand{\degF}{\ensuremath{^{\circ}}F}
 
 % Defines relative path for all nested input files. 
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
@@ -129,7 +140,7 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{frontmatter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\sharan
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Introduction
 %\input{Introduction}
