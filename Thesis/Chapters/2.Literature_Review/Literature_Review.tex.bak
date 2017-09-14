@@ -12,3 +12,39 @@ with room temperature, thus Ti-6246 transform martensitically upon fast cooling 
 field to room temperature. According to the present results, there exists no α″ phase in the XRD
 patterns of the FZ, which indicates that the cooling rate in FZ during welding did not reach the
 critical cooling rate of the martensitic transformation.
+
+Once we get past the early part of the compressor the temperature and stress increases beyond what Ti 64 can handle.  Starting with pure Ti we again want both α and β phases.  Adding the Al reduces the weight of the α phase whilst stabilizing it.  The 6\% Mo is added to stabilize the β phase.  Sn and Zr are also stabilizing elements that encourage solid solution strengthening like in superalloys.  Compared to Ti 64, Ti 6246 has less β phase.  Because there is only a small amount of β phase, Ti 6246 is considered to be a near α titanium alloy  This material can be heat treated to be made harder.  The advantage of this material over Ti 64 is that it is stronger at higher temperatures (about 450°C) and therefore is used in the later section of the compressor.
+
+During the operation of a gas turbine engine in a jet aircraft the turbine blades and the disk in which they are housed are subjected to cyclic loading during take-off, cruising and landing. Cyclic loading gives rise to fatigue – fracture of the component at stresses significantly less than those found during a tensile test. Dwell fatigue refers to the reduction in the fatigue life-time of a component as a result of exposing the component to a constant high mean stress during cruising, between the ramping up of the load during take-off and the ramping down of the load on landing. The ‘cold’ of cold dwell fatigue refers to the fact that this phenomenon happens at temperatures of around 100C or less, in a relatively cold part of the engine.
+
+
+
+\section{Cold Dwell Fatigue in titanium} 
+\citep{Balaji2012}
+The occurrence of cold dwell fatigue in Ti-alloys is 40 years old. It was first detected in two Ti-alloy disks in RR RB211 engines on Lockheed Tristar aircraft in 1972/73. It continues to be a serious problem for the producers and operators of aircraft, because periodic inspections of the fan disk and blades are required during service, and the replacement of rotor components in which cracks are detected. It also leads to the over-design of disks and blades, with a consequent increase in the rate of fuel consumption, adding up to a huge amount of fuel over the lifetime of a commercial aircraft.
+
+Cold dwell fatigue remains an unsolved engineering problem. Its complexity raises a host of fundamental questions about plasticity, creep and fracture in Ti and its alloys. It is possible it is so complex it may never be solved. But the issues it raises provide very challenging and fertile problems to stretch the current capabilities of materials simulation.
+
+The metallurgical factors affecting cold dwell fatigue are known, but the mechanisms that give rise to the phenomenon are much less clear [1]. The following factors are known to be relevant:
+
+1. Alloy composition. The most susceptible Ti alloys are those containing high volume fractions of the alpha (HCP) phase and low volume fractions of the beta (BCC) phase.
+
+2. Microstructure. The most susceptible alloys contain clusters of alpha grains that have small misorientations between them (microtexture).
+
+3. The duration of the dwell and the loading during the dwell. The application of a constant load between stress cycles can dramatically reduce the fatigue life of the specimen.
+
+4. Creep. One of the most remarkable features about Ti alloys is their ability to creep at room temperature, a phenomenon known since 1949 but not explained. It is now recognised that creep is a key aspect of cold dwell fatigue because it leads to stress redistribution and concentration, which is necessary for crack nucleation.
+
+5. Fracture morphology. The crack initiates below the surface of the specimen and consists of facets almost parallel to the basal plane of the alpha phase. The normal to these facets is along the stress axis. The surfaces of a dwell fatigue crack are always much closer to maximum normal stress than to a maximum shear stress as one would have with ordinary fatigue cracks.
+
+Crystal plasticity models have been applied to cold dwell fatigue [2]. These models use experimentally determined constitutive relations that determine the elastic anisoptropy and the anisotropy of slip in the alpha phase, and they also account for the role of creep in redistributing the load onto grains where there are no slip systems activated to relax the stress and hence a crack is nucleated.
+
+A fundamental approach to the problem of cold dwell fatigue involves the following questions:
+
+1. What determines the temperature dependence of of the critical resolved shear stress (CRSS) of prism, basal and c+a slip in the alpha phase? A recent computational study [3] compared DFT simulations of elastic constants and gamma surfaces of basal and prismatic planes with empirical models and tight binding models. This work highlighted the failures of empirical models, and it also revealed that DFT simulations using pseudopotentials (in contrast to all electron calculations) failed to get the shear elastic constants right. Getting the elastic constants and gamma surfaces right is a necessary requisite for predicting core structures of dislocations. To understand the temperature dependencies of the CRSS on the three observed slip planes it will be necessary to simulate core structures and kink energetics [4], and for that more reliable, simpler models of interatomic forces will be needed.
+
+2. How does Ti creep at room temperature? It has been known since 1949 that Ti will creep at temperatures below 20\% of the melting point. This is very unusual in any crystalline material. It is also found that the activation energy for creep is around a quarter of the activation energy for self-diffusion. This suggests a possible extrinsic mechanism involving substitutional impurities such as Co, Fe and Ni, which may become interstitial defects creating Frenkel pairs and hence vacancies that are then available for diffusion. Indeed experiments [5] carried out on ultrapure Ti and nominally pure Ti (containing ppm of Fe) showed dramatically different activation energies for diffusion. There is a need here to model accurately the energetics of intrinsic and extrinsic diffusion in alpha titanium, to compare with these accurate experimental measurements.
+
+3. Why does the addition of Mo suppress cold dwell fatigue? One possible explanation is that it increases the volume fraction of beta phase, thus reducing the volume fraction occupied by the alpha phase. Another possible explanation is that Mo forms complexes with the vacancies created extrinsically by the Fe, Co and Ni impurities becoming interstitial defects. In that case creep would be suppressed because diffusion could no longer take place at such low temperatures, and hence the stress redistribution necessary for cold dwell fatigue would not occur. Again there is a need for accurate simulations to model such complexes and their energetics.
+
+4. Why does raising the temperature to only 200C suppress cold dwell fatigue? This is presumably a result of some mechanism relieving stress concentrations at grain boundaries that would otherwise result in crack nucleation. The fact that it is only a 200C temperature rise that is required indicates that it is probably related to a diffusional relaxation mechanism enabling slip transmission or some accommodation mechanism at the grain boundaries. Here there is a need for molecular dynamics simulations of pile-ups at grain boundaries as a function of temperature.
