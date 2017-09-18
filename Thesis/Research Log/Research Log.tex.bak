@@ -9,7 +9,7 @@
 \usepackage{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{epstopdf}
+\usepackage[outdir=./]{epstopdf}
 \usepackage{float} %% For image placement
 \usepackage{amsmath}
 \usepackage{hyperref} % To make links clickable
@@ -28,7 +28,7 @@
 
 \begin{document} 
 %% Adds images directory for each chapter
-\graphicspath{{../Images/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/}} 
+\graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/}} 
 
 %Relative path for \include commands. From inputx custom package.
 \inputpaths{Month} 
@@ -54,6 +54,6 @@
 
 \include{"2017-08-[August]"}
 
-\include{"2017-09-[September]"}
+%\include{"2017-09-[September]"}
 
 \end{document}
