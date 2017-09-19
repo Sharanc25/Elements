@@ -67,16 +67,17 @@
 
 \begin{frame}{Notations}
 
-\definecolor{barblue}{RGB}{153,204,254}
-\definecolor{groupblue}{RGB}{51,102,254}
-\definecolor{linkred}{RGB}{165,0,33}
-\renewcommand\sfdefault{phv}
-\renewcommand\mddefault{mc}
-\renewcommand\bfdefault{bc}
-\setganttlinklabel{s-s}{START-TO-START}
-\setganttlinklabel{f-s}{FINISH-TO-START}
-\setganttlinklabel{f-f}{FINISH-TO-FINISH}
-\sffamily
+\begin{ganttchart}{1}{12}
+  \gantttitle{2011}{12} \\
+  \gantttitlelist{1,...,12}{1} \\
+  \ganttgroup{Group 1}{1}{7} \\
+  \ganttbar{Task 1}{1}{2} \\
+  \ganttlinkedbar{Task 2}{3}{7} \ganttnewline
+  \ganttmilestone{Milestone}{7} \ganttnewline
+  \ganttbar{Final Task}{8}{12}
+  \ganttlink{elem2}{elem3}
+  \ganttlink{elem3}{elem4}
+\end{ganttchart}
 
 \end{frame}
 
