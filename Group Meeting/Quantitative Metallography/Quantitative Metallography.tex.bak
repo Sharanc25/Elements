@@ -16,11 +16,9 @@
 \usepackage{graphicx}
 
 \title{Quantitative Metallography}
-%\subtitle{Quantitative Metallography}
+%\subtitle{Sharan Chandran}
+\date{\today}
 \author{Sharan Chandran}
-\date{\today}
-\date{\today}
-
 \institute{Indian Institute of Science}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
