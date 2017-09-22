@@ -151,20 +151,7 @@ E_{P}^{2} = \dfrac{1}{P}
 \section{Grain Size}
 
 {%
-\setbeamertemplate{frame footer}{}
-\begin{frame}[fragile]{Mean Linear Intercept}
-
-Best Method for grain size analysis for uniform grains
-
-\begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Graphite"}
-\end{figure}
-    
-\end{frame}
-}
-
-{%
-\setbeamertemplate{frame footer}{}
+\setbeamertemplate{frame footer}{Z. Jeffries, A.H. Kline and E.B. Zimmer, Trans. AIME, Vol. 54, 1916, pp. 594-607}
 \begin{frame}[fragile]{Jeffries Planimetric Method}
 
 ASTM Committee E-4 on Metallography was founded in 1916. Their first standard, ASTM E 2 was proposed in 1917 [1], it included a detailed description of how to measure grain size using the planimetric method written by Zay Jeffries [2,3], based upon earlier work done by his graduate school advisor, Albert Sauveur [4]. Sauveur was the first to measure grain size and he defined it in terms of the number of grains per mm2 at 1X; but, he did not describe how he made the measurement. The ASTM equation relating the number of grains per in2 at 100X and the ASTM grain size number was introduced in 1951 by an undocumented Timken member of E-4 when E 91-51T was introduced [5]. The equation is:
@@ -205,6 +192,51 @@ In the 1974 revision of E 112 by Halle Abrams, he introduced the three-concentri
 
 To do the intercept method, one counts either grain boundary intersections, P, or grains intercepted, N, by the circles. For a single phase structure, it is easier to do P counts. For a two-phase structure, one must do N counts. For a single phase grain structure P = N and either count can be made. The P or N count is divided by the true line length, LT, which is the line length divided by the magnification, L/M. This yields PL or NL, the number of intersections per unit length or the number of interceptions per unit length. The reciprocal of PL or NL is the mean lineal intercept length, L3, which may be designated as l. The mean lineal intercept is related to G by the following empirical equation:
 							G = (-6.6457 log L3)  – 3.298      
+							
+							
+							Measurement of Grain Size Using the Mean Lineal Intercept Method
+ASTM Standard E 112-88 describes the lineal intercept method in general and the Heyn procedure
+in particular. The following is an abbreviated version of the Heyn procedure.
+1. Magnification, Test Line and Fields
+C Ideally, the length of a single test line and the magnification should be such that 50 intercepts
+can be counted.
+C The use of multiple fields to obtain 50 intercepts is discouraged, although permitted, due to the
+bias which will decrease the accuracy as the number of fields increases.
+2. Count the intercepts...
+C An intercept is the segment of the test line which overlays one grain.
+C Count 1 for each intercept and ½ for each time an end of the test line falls in a grain.
+... or count the intersections
+C An intersection is the point where the test line cuts a grain boundary.
+C Count 1 for each intersection, 1 for each tangential intersection, ½ when an end of the test line
+ends exactly on a grain boundary and 1½ when the intersection occurs at a triple point.
+3. Measurement Strategy
+C Make counts on 3 to 5 blindly selected and widely separate fields to obtain a reasonable average
+for the specimen. Additional counts may be required to obtain the desired statistics.
+C Use four or more orientations of the test line to eliminate effects due the moderate departures
+from an equiaxed structure.
+C Use orthogonal sets of parallel test lines if the structure is distinctly non-equiaxed.
+4. Tabulate the Results
+C Calculate the average lineal intercept length.
+C Calculate the standard deviation.
+C Calculate the confidence interval for the desired confidence interval.
+5. Report the Results
+C When reporting the results include the magnification, length of the test line, total number of
+intercepts counted along with the mean intercept length and the confidence interval for the stated
+confidence level.
+    
+\end{frame}
+}
+
+
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}[fragile]{Mean Lineal Intercept}
+
+Best Method for grain size analysis for uniform grains. S$ _{V} $ is the amount of grain surface per unit volume.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Mean Lineal Intercept"}
+\end{figure}
     
 \end{frame}
 }
