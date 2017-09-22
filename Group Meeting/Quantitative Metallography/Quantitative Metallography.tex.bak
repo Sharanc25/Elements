@@ -42,20 +42,21 @@ Todo: \\
 
 \metroset{block=fill}
 
-\begin{frame}{Standard Notations}
+\begin{frame}{Notations}
 
 
   \begin{columns}[T,onlytextwidth]
     \column{0.3\textwidth}
     P Points \\
     L Lines  \\
-    P$ _{P} $ Number of points
-  
+    P$ _{P} $ Number of points \\
+    $\sigma$ Standard Deviation
  
     \column{0.3\textwidth}
    A Flat Areas \\
    S Curved Surfaces \\
    S$ _{V} $ Surface per unit Volume
+   $\bar{x}$ or $\mu$ Mean Value
   
     \column{0.3\textwidth}
     V Volume \\
