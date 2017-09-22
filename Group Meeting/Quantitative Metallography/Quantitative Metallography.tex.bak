@@ -164,6 +164,40 @@ Best Method for grain size analysis for uniform grains
 }
 
 {%
+\setbeamertemplate{frame footer}{}
+\begin{frame}[fragile]{Jeffries Planimetric Method}
+
+ASTM Committee E-4 on Metallography was founded in 1916. Their first standard, ASTM E 2 was proposed in 1917 [1], it included a detailed description of how to measure grain size using the planimetric method written by Zay Jeffries [2,3], based upon earlier work done by his graduate school advisor, Albert Sauveur [4]. Sauveur was the first to measure grain size and he defined it in terms of the number of grains per mm2 at 1X; but, he did not describe how he made the measurement. The ASTM equation relating the number of grains per in2 at 100X and the ASTM grain size number was introduced in 1951 by an undocumented Timken member of E-4 when E 91-51T was introduced [5]. The equation is:
+
+n = 2G-1                                            (1)
+
+where n is the number of grains per in2 at 100X and G is the ASTM grain size number.
+
+The Jeffries planimetric grain size method utilized a test circle with a diameter of 79.8 mm which was superimposed over the microstructure. The magnification was chosen to give at least 100 grains to be counted (this number was later reduced to ~50 when a round robin test program showed that counting errors were higher when ~100 grains were counted per grid application). The wording, as written, could be interpreted two ways and could be improved. It would be better to say that ~50 grains should be inside and intersecting the test circle. The rater must count all the grains that are completely inside the test circle, ninside, and all the grains that are intercepted by the circle, nintercepted. It is assumed that, on average, half of the intercepted grains are inside the test circle and half are outside. To get an accurate count, the operator must mark off the grains as they are counted using a felt tip pen, etc. This, however, makes the method slow and less popular. But, this is not a problem if image analysis is used. The calculation is:
+
+NA = f(ninside + 0.5nintercepted)                          (2)
+
+where NA is the number of grains per mm2 at 1X and f is the Jeffries multiplier:
+
+f = M2/A                                                     (3)
+
+and M is the magnification and a is the area (5000 mm2 is the standard size). If the test area is different than 5000 mm2 (from a circle 79.8 mm diameter), then the alternate area used is divided into the magnification squared.
+
+The average grain area, A, is the reciprocal of NA. The ASTM grain size number is calculated by:
+
+G = 3.321928 LogNA  –  2.954            (4)
+
+G is rounded off to the nearest tenth value. In practice, more than one field must be evaluated to obtain a good estimate of G.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
+\end{figure}
+    
+\end{frame}
+}
+
+
+{%
 \setbeamertemplate{frame footer}{H. Abrams, “Grain Size Measurements by the Intercept Method,”Metallography, Vol. 4, February 1971, pp. 59-78}
 \begin{frame}[fragile]{Heyn Intercept Method}
 url: https://vacaero.com/information-resources/metallography-with-george-vander-voort/1273-grain-size-measurement-the-heyn-intercept-method.html
