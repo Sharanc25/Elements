@@ -24,6 +24,9 @@
 
 \begin{document}
 
+%% Adds images directory for each chapter
+\graphicspath{{../Images/}} 
+
 \maketitle
 
 \begin{frame}{Table of contents}
@@ -152,6 +155,10 @@ E_{P}^{2} = \dfrac{1}{P}
 \begin{frame}[fragile]{Mean Linear Intercept}
 
 Best Method for grain size analysis for uniform grains
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Graphite"}
+\end{figure}
     
 \end{frame}
 }
@@ -180,17 +187,32 @@ Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{
   Thank You
 \end{frame}
 }
-
-\appendix
+\iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{Backup slides}
-Backup Slides
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[H]{0.40\textwidth}
+        \includegraphics[width=\textwidth]{images/sem-cs-2}
+        
+    \end{subfigure}
+    ~
+    \begin{subfigure}[H]{0.40\textwidth}
+        \includegraphics[width=\textwidth]{images/sem-cs-4}
+    \end{subfigure}       
+    \\
+    \begin{subfigure}[H]{0.35\textwidth}
+        \includegraphics[width=\textwidth]{images/sem-3}
+    \end{subfigure}      
+     
+\end{figure}
 \end{frame}
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[allowframebreaks]{References}
 
-  \bibliography{references}
+  %\bibliography{references}
   \bibliographystyle{abbrv}
 
 \end{frame}
