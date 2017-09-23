@@ -102,7 +102,7 @@ E_{A}^{2} = \dfrac{1}{N}\left[ 1+ \left( \dfrac{\sigma}{\bar{A}} \right)^{2} \ri
     \column{0.49\textwidth}
 \begin{block}{Lineal Fraction}
 \begin{equation*}
-L_{v} = \dfrac{\sum A_{A}}{A_{T}}
+L_{v} = \dfrac{\sum L_{\alpha}}{L_{T}}
 \end{equation*} 
 \end{block}
  
