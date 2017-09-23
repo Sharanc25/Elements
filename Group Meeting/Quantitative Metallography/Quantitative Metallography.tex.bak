@@ -51,7 +51,7 @@
     \column{0.3\textwidth}
    A Flat Areas \\
    S Curved Surfaces \\
-   S$ _{V} $ Surface / Volume \\
+   S$ _{V} $ Surface/Volume \\
    $\bar{x}$ or $\mu$ Mean Value
   
     \column{0.3\textwidth}
@@ -68,13 +68,14 @@
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Graphite"}
+
 \end{figure}
     
 \end{frame}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {%
-\setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
+\setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Volume Fraction}
 
 
@@ -236,7 +237,7 @@ Best Method for grain size analysis for uniform grains. S$ _{V} $ is the amount 
 
 
 {%
-\setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
+\setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Not all grains are created equal}
 
 \begin{equation*}
@@ -249,7 +250,7 @@ Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\section{Volume Fraction Using MatLab}
+{\section{Calculating Volume Fraction Using MatLab}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {\setbeamercolor{palette primary}{fg=black, bg=yellow}
