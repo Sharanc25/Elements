@@ -177,21 +177,35 @@ E_{P}^{2} = \dfrac{1}{P}
 \section{Grain Size}
 
 {%
+\setbeamertemplate{frame footer}{}
+\begin{frame}[fragile]{ASTM Grain Size}
+
+\begin{equation*}
+n = 2^{G-1}
+\end{equation*}
+n - Total number of grains/sq.inch at 100x \\
+G - ASTM Grain Size Number    
+\end{frame}
+}
+
+{%
 \setbeamertemplate{frame footer}{Z. Jeffries, A.H. Kline and E.B. Zimmer, Trans. AIME, Vol. 54, 1916, pp. 594-607}
 \begin{frame}[fragile]{Jeffries Planimetric Method (ASTM E112)}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
+\includegraphics[width=0.25\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
 \end{figure}
 
 CircleD iameter = 79.8 mm. \\
 Magnification - 50 grains inside + intersecting the circle. \\
 n$ _{inside} $ - Number of grains inside the circle \\
-n$_{intercepted}$ and all the grains that are intercepted by the circle, nintercepted. It is assumed that, on average, half of the intercepted grains are inside the test circle and half are outside. To get an accurate count, the operator must mark off the grains as they are counted using a felt tip pen, etc. This, however, makes the method slow and less popular. But, this is not a problem if image analysis is used. The calculation is:
+n$_{intercepted}$ - Number of grains intercepted by the circle
 
-NA = f(ninside + 0.5nintercepted)                          (2)
-
-where NA is the number of grains per mm2 at 1X and f is the Jeffries multiplier:
+\begin{equation*}
+N_{A} = f(n_{inside} + 0.5n_{intercepted})  
+\end{equation*}
+N$_{A}$ - Number of grains per mm$^{2}$ at 1X and 
+f - Jeffries multiplier:
 
 f = M2/A                                                     (3)
 
