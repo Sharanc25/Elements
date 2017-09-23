@@ -193,10 +193,15 @@ G - ASTM Grain Size Number
 \begin{frame}[fragile]{Jeffries Planimetric Method (ASTM E112)}
 
 \begin{figure}[H]
-\includegraphics[width=0.25\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
+\includegraphics[width=0.75\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
 \end{figure}
+\end{frame}
+}
 
-CircleD iameter = 79.8 mm. \\
+{%
+\setbeamertemplate{frame footer}{Z. Jeffries, A.H. Kline and E.B. Zimmer, Trans. AIME, Vol. 54, 1916, pp. 594-607}
+\begin{frame}[fragile]{Jeffries Planimetric Method (ASTM E112)}
+Circle Diameter = 79.8 mm. \\
 Magnification - 50 grains inside + intersecting the circle. \\
 n$ _{inside} $ - Number of grains inside the circle \\
 n$_{intercepted}$ - Number of grains intercepted by the circle
@@ -221,7 +226,6 @@ G is rounded off to the nearest tenth value. In practice, more than one field mu
     
 \end{frame}
 }
-
 
 {%
 \setbeamertemplate{frame footer}{H. Abrams, “Grain Size Measurements by the Intercept Method,”Metallography, Vol. 4, February 1971, pp. 59-78}
