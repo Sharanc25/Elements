@@ -14,6 +14,7 @@
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{subcaption}
 
 \title{Quantitative Metallography}
 %\subtitle{Sharan Chandran}
@@ -61,7 +62,7 @@
 \end{columns}     
 
 \end{frame}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {%
 \setbeamertemplate{frame footer}{Underwood, E.E., 1969. Stereology, or the quantitative evaluation of microstructures. Journal of microscopy, 89(2), pp.161-180.}
 \begin{frame}[fragile]{2D vs 3D Microstructure}
@@ -75,12 +76,38 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {%
+\setbeamertemplate{frame footer}{Underwood, E.E., 1972. The stereology of projected images. Journal of microscopy, 95(1), pp.25-44}
+\begin{frame}[fragile]{Projected Image}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Projected Image"}
+
+\end{figure}
+    
+\end{frame}
+}
+
+{%
+\setbeamertemplate{frame footer}{Underwood, E.E., 1972. The stereology of projected images. Journal of microscopy, 95(1), pp.25-44}
+\begin{frame}[fragile]{Projected Image}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Projection of Structural Features"}
+
+\end{figure}
+    
+\end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{%
 \setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Volume Fraction}
 
 \begin{equation*}
-V_{V} = A_{A} = L_{L} = P_{P}
+\begin{gathered}
+V_{V} = A_{A} = L_{L} = P_{P} \\
 W_{W} = \dfrac{V_{V} * \rho_{\alpha}}{\rho_{M}}
+\end{gathered}
 \end{equation*}
 
 
