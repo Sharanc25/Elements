@@ -80,7 +80,7 @@
 \begin{frame}[fragile]{Projected Image}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Projected Image"}
+\includegraphics[width=0.90\textwidth,height=\textheight,keepaspectratio]{"Projected Image"}
 
 \end{figure}
     
@@ -92,7 +92,7 @@
 \begin{frame}[fragile]{Projected Image}
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Projection of Structural Features"}
+\includegraphics[width=0.90\textwidth,height=\textheight,keepaspectratio]{"Projection of Structural Features"}
 
 \end{figure}
     
@@ -178,11 +178,11 @@ E_{P}^{2} = \dfrac{1}{P}
 
 {%
 \setbeamertemplate{frame footer}{Z. Jeffries, A.H. Kline and E.B. Zimmer, Trans. AIME, Vol. 54, 1916, pp. 594-607}
-\begin{frame}[fragile]{Jeffries Planimetric Method}
+\begin{frame}[fragile]{Jeffries Planimetric Method (ASTM E112)}
 
-ASTM Committee E-4 on Metallography was founded in 1916. Their first standard, ASTM E 2 was proposed in 1917 [1], it included a detailed description of how to measure grain size using the planimetric method written by Zay Jeffries [2,3], based upon earlier work done by his graduate school advisor, Albert Sauveur [4]. Sauveur was the first to measure grain size and he defined it in terms of the number of grains per mm2 at 1X; but, he did not describe how he made the measurement. The ASTM equation relating the number of grains per in2 at 100X and the ASTM grain size number was introduced in 1951 by an undocumented Timken member of E-4 when E 91-51T was introduced [5]. The equation is:
-
-n = 2G-1                                            (1)
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
+\end{figure}
 
 where n is the number of grains per in2 at 100X and G is the ASTM grain size number.
 
@@ -202,9 +202,7 @@ G = 3.321928 LogNA  –  2.954            (4)
 
 G is rounded off to the nearest tenth value. In practice, more than one field must be evaluated to obtain a good estimate of G.
 
-\begin{figure}[H]
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Jefferies"}
-\end{figure}
+
     
 \end{frame}
 }
@@ -258,7 +256,7 @@ confidence level.
 \setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Mean Lineal Intercept}
 
-Best Method for grain size analysis for uniform grains. S$ _{V} $ is the amount of grain surface per unit volume.
+S$ _{V} $ is the amount of grain surface per unit volume.
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Mean Lineal Intercept"}
@@ -267,14 +265,23 @@ Best Method for grain size analysis for uniform grains. S$ _{V} $ is the amount 
 \end{frame}
 }
 
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}[fragile]{Other Methods}
+
+S$ _{V} $ is the amount of grain surface per unit volume.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{"Mean Lineal Intercept"}
+\end{figure}
+    
+\end{frame}
+}
 
 {%
 \setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Not all grains are created equal}
 
-\begin{equation*}
-Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{Volume of unit cell * Avogadro number}}
-\end{equation*}   
     
 \end{frame}
 }
