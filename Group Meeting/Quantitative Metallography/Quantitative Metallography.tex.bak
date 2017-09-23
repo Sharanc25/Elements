@@ -202,21 +202,21 @@ G - ASTM Grain Size Number
 \setbeamertemplate{frame footer}{Z. Jeffries, A.H. Kline and E.B. Zimmer, Trans. AIME, Vol. 54, 1916, pp. 594-607}
 \begin{frame}[fragile]{Jeffries Planimetric Method (ASTM E112)}
 Circle Diameter = 79.8 mm. \\
-Magnification - 50 grains inside + intersecting the circle. \\
+Magnification - 50 (grains inside + intersecting the circle) \\
 n$ _{inside} $ - Number of grains inside the circle \\
 n$_{intercepted}$ - Number of grains intercepted by the circle
 
 \begin{equation*}
 N_{A} = f(n_{inside} + 0.5n_{intercepted})  
 \end{equation*}
-N$_{A}$ - Number of grains per mm$^{2}$ at 1X and 
-f - Jeffries multiplier:
+N$_{A}$ - Number of grains per mm$^{2}$ at 1X \\ 
+f - Jeffries multiplier
 
 \begin{equation*}
 f = M_{2}/A                                                     
 \end{equation*}
 M - magnification \\
-a - area of the circle
+a - area of the circle \\
 
 The average grain area, A, is the reciprocal of N$ _{A} $.
    
@@ -246,15 +246,23 @@ S$ _{V} $ is the amount of grain surface per unit volume.
     
 \end{frame}
 }
-
-
-
-
 \section{Grain Size Distribution*}
 {%
 \setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Not all grains are created equal}
 
+1. Distribution of diameters \\
+
+ - Saltykov's Method \\
+ - Scheil's Method \\
+ 
+  
+ 
+2. Distribution of areas \\
+
+3. Distribution of chord lengths \\
+     
+\end{figure}
     
 \end{frame}
 }
