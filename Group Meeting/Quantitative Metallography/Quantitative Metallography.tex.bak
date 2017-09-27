@@ -15,6 +15,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{cancel} % For strikethrough
 
 \title{Quantitative Metallography}
 \subtitle{Part 1}
@@ -154,7 +155,7 @@ E_{L}^{2} = \dfrac{1}{N}(1-V_{V})^{2}\left[ \left( \dfrac{\sigma^{\alpha}_{L}}{\
     \column{0.49\textwidth}
 \begin{block}{Point Fraction (ASTM E 562)}
 \begin{equation*}
-P_{P} = \dfrac{\sum P_{\alpha}}{A_{T}}
+P_{P} = \dfrac{\sum P_{\alpha}}{\cancel{A_{T}}}
 \end{equation*} 
 \end{block}
  
@@ -170,6 +171,17 @@ E_{P}^{2} = \dfrac{1}{P}
 
 
  
+    
+\end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{%
+\setbeamertemplate{frame footer}{Slide 14 - https://www.brainshark.com/malvern/vu?pi=577133879\& text=M021507\& r3f1=}
+\begin{frame}[fragile]{Theoretical Density}
+
+\begin{equation*}
+Theoretical Density = \dfrac{\text{MW * No.of Molecules per unit volume}}{\text{Volume of unit cell * Avogadro number}}
+\end{equation*}   
     
 \end{frame}
 }
