@@ -225,12 +225,12 @@ N$_{A}$ - Number of grains per mm$^{2}$ at 1X \\
 f - Jeffries multiplier
 
 \begin{equation*}
-f = \cancel{M_{2}}/A}   \dfrac{M^{2}}{a}                                                  
+f =\cancel{\dfrac{M_{2}}{A}}   \dfrac{M^{2}}{a}                                                  
 \end{equation*}
 M - magnification \\
 a - area of the circle \\
 
-The average grain area, A, is the reciprocal of N$ _{A} $.
+The average grain area, A = $\dfrac{1}{N_{A}}$
    
 \end{frame}
 }
