@@ -258,8 +258,10 @@ S$ _{V} $ is the amount of grain surface per unit volume.
     
 \end{frame}
 }
-\iffalse
-\section{Grain Size Distribution*}
+
+\iffalse 
+
+\section{Part 2 - Grain Size Distribution}
 {%
 \setbeamertemplate{frame footer}{}
 \begin{frame}[fragile]{Not all grains are created equal}
@@ -286,7 +288,7 @@ S$ _{V} $ is the amount of grain surface per unit volume.
 %\section{Calculating Volume Fraction Using MatLab}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\setbeamercolor{palette primary}{fg=black, bg=yellow}
+{\setbeamercolor{palette primary}{}
 \begin{frame}[standout]
   Thank You
 \end{frame}
