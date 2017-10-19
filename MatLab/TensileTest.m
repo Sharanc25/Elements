@@ -1,4 +1,4 @@
-num = xlsread("D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx",'C:C,D:D');
+num = xlsread("D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx");
 %%
 % The file which data is initialized.
 A0=pi*(d0/2)^2;
