@@ -21,7 +21,7 @@ set(xl,'fontsize',14,'fontweight','bold');
 set(yl,'fontsize',14,'fontweight','bold');
 
 set(ti,'fontsize',14,'fontweight','bold');
-axis([0 0.25 0 1050]); %  Axis  limits figure(3) 
+axis([0 0.25 0 1200]); %  Axis  limits figure(3) 
 
 %%
 plot(strain,stress,'LineWidth',2)
