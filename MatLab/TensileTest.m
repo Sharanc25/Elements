@@ -31,7 +31,7 @@ ti=title('Stress-Strain Curve');
 set(xl,'fontsize',14,'fontweight','bold');
 set(yl,'fontsize',14,'fontweight','bold'); 
 set(ti,'fontsize',14,'fontweight','bold');
-axis([0 0.1 0  650]); %  Axis  limits
+axis([0 0.1 0  1200]); %  Axis  limits
 hold on;
 plot(0.002,0,'d','MarkerFaceColor','b');
 plot(0.022,177,'d','MarkerFaceColor','b');
