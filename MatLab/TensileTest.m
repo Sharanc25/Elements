@@ -1,4 +1,5 @@
-num = xlsread("D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx",'C:C');
+extension = xlsread("D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx",'C:C');
+load = xlsread("D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx",'D:D');
 d0 = 4; % Diamter (in mm) of the tensile specimen
 L0 = 20; % Gauge length (in mm) of the tensile specimen
 %%
