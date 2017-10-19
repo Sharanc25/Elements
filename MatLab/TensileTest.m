@@ -12,8 +12,8 @@ stress = load/A0;
 strain= extension/L0;  
 figure(1); 
 plot(strain,stress,'LineWidth',2); 
-%%
 grid  on;
+%%
 xl=xlabel('strain, \epsilon (%)');
 yl=ylabel('stress, \sigma (MPa)');
 ti=title('Stress-Strain Curve');
