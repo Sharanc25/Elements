@@ -7,11 +7,12 @@ L0 = 20; % Gauge length (in mm) of the tensile specimen
 % The file which data is initialized.
 A0=pi*(d0/2)^2;
 stress = load/A0;
-%%
+
 % units: kN*1000/mm^2 -> MPa 
-strain=F_deltaL(:,2)/L0;  
+strain= extension/L0;  
 figure(1); 
 plot(strain,stress,'LineWidth',2); 
+%%
 grid  on;
 xl=xlabel('strain, \epsilon (%)');
 yl=ylabel('stress, \sigma (MPa)');
