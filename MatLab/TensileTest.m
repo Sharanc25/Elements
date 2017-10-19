@@ -1,12 +1,13 @@
 filename = 'D:\PhD\Thesis\Tensile Test\Ti6242-1.4-TS.xlsx';
 extension = xlsread(filename,'C:C');
-load = xlsread(filename,'D:D');
+load = xlsread(filename,'D:D'); % Load in newtons
 d0 = 4; % Diamter (in mm) of the tensile specimen
 L0 = 20; % Gauge length (in mm) of the tensile specimen
 %%
 % The file which data is initialized.
 A0=pi*(d0/2)^2;
-stress=F_deltaL(:,1)*1000/A0;
+stress = load/A0;
+%%
 % units: kN*1000/mm^2 -> MPa 
 strain=F_deltaL(:,2)/L0;  
 figure(1); 
