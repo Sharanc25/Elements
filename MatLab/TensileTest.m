@@ -16,10 +16,10 @@ grid  on;
 
 xl=xlabel('strain, \epsilon (%)');
 yl=ylabel('stress, \sigma (MPa)');
-%%
 ti=title('Stress-Strain Curve');
 set(xl,'fontsize',14,'fontweight','bold');
-set(yl,'fontsize',14,'fontweight','bold') 
+set(yl,'fontsize',14,'fontweight','bold');
+%%
 set(ti,'fontsize',14,'fontweight','bold') axis([0 0.25 0 650]) %  Axis  limits figure(3) 
 plot(strain,stress,'LineWidth',2)
 grid on
