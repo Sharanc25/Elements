@@ -8,7 +8,9 @@
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{cccccc}
 \hline
-\textbf{Sample ID} & \textbf{Diameter (mm)} & \textbf{Gauge Length (mm)} & \textbf{Strain Rate (s$ ^{-1} $)} & \textbf{Cross-head Speed (mm/s)} & \textbf{Yield Strength (MPa)} \\ \hline
+\multirow{2}{*}{\textbf{Sample ID}} & \multirow{2}{*}{\textbf{Diameter (mm)}} & \multirow{2}{*}{Gauge Length (mm)} & \multirow{2}{*}{Strain Rate (s$ ^{-1} $)} & \multirow{2}{*}{Cross-head Speed (mm/s)} & \multicolumn{2}{l}{Yield Strength (MPa)} \\ \cline{7-7}
+                   &                    &                    &                    &                    & Engg.      & True     \\ \cline{7-7} \hline
+
 Ti6242-1.2-TS & - & - & - & - &  \\ \hline
 Ti6242-1.3-TS & - & - & - & - &  \\ \hline
 Ti6242-1.4-TS & 4.043 & 20 & 0.0333 & 0.666 & 956.19 (Engg.)\\ \hline
@@ -19,5 +21,8 @@ Ti6242-1.5-TS & 4.037 & 20 & 0.0333 & 0.666 &  956.19 (Engg.)\\ \hline
 \label{my-label}
 \end{table}
 
-\multirow{2}{*}{\textbf{Sample ID}} & \multirow{2}{*}{\textbf{Diameter (mm)}} & \multirow{2}{*}{Gauge Length (mm)} & \multirow{2}{*}{Strain Rate (s$ ^{-1} $)} & \multirow{2}{*}{5} & \multicolumn{2}{l}{6} \\
-                   &                    &                    &                    &                    & Engg.      & True     \\
+\iffalse
+
+\textbf{Sample ID} & \textbf{Diameter (mm)} & \textbf{Gauge Length (mm)} & \textbf{Strain Rate (s$ ^{-1} $)} & \textbf{Cross-head Speed (mm/s)} & \textbf{Yield Strength (MPa)} \\ \hline
+
+\fi
