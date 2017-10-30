@@ -16,14 +16,25 @@
 \usepackage{subcaption}
 \usepackage{mhchem}
 
+\usepackage{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
+\usepackage{hyperref} % To make links clickable
+\usepackage{xcolor}   % To remove ugly borders on links - https://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\usepackage{inputx} % Make relative paths work for \include command - https://tex.stackexchange.com/questions/4602/how-to-make-the-main-file-recognize-relative-paths-used-in-the-imported-files
+
 
 \pagestyle{bfheadings}
 
 % Put your macros here
 %\newfont{\punkbx}{punkbx20}
 
-
-%\includeonly{filename,filename2,}
+% To render faster use \includeonly. https://en.wikibooks.org/wiki/TeX/includeonly
+%\includeonly{Literature_Review,filename2,}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,32 +157,28 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{frontmatter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Chapters
+%								 Chapters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
 % Introduction
-%\input{Introduction}
+%\include{Introduction}
 % Literature Review
 \include{Literature_Review}
 % Experimental Details
-%\input{Experimental_Details}
+\include{Experimental_Details}
 % Results and Discussion
-%\input{Results_and_Discussion}
+%\include{Results_and_Discussion}
 % Summary And Conclusions
-%\input{Summary_and_Conclusions}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%\include{Summary_and_Conclusions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+%							 Appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
 %\chapter{My Appendix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Bibliography or References
-
+% 						Bibliography or References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\bibliographystyle{plainnat}
 
 \bibliography{references}
