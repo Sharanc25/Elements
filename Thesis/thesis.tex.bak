@@ -25,7 +25,7 @@
     citecolor={blue!50!black},
     urlcolor={blue!80!black}
 }
-\usepackage{inputx} % Make relative paths work for \include command - https://tex.stackexchange.com/questions/4602/how-to-make-the-main-file-recognize-relative-paths-used-in-the-imported-files
+%\usepackage{inputx} % Make relative paths work for \include command - https://tex.stackexchange.com/questions/4602/how-to-make-the-main-file-recognize-relative-paths-used-in-the-imported-files
 
 
 \pagestyle{bfheadings}
@@ -164,9 +164,9 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 % Introduction
 %\include{Introduction}
 % Literature Review
-\include{Literature_Review}
+\input{Literature_Review}
 % Experimental Details
-\include{Experimental_Details}
+%\include{Experimental_Details}
 % Results and Discussion
 %\include{Results_and_Discussion}
 % Summary And Conclusions
