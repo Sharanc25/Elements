@@ -25,7 +25,6 @@
     citecolor={blue!50!black},
     urlcolor={blue!80!black}
 }
-%\usepackage{inputx} % Make relative paths work for \include command - https://tex.stackexchange.com/questions/4602/how-to-make-the-main-file-recognize-relative-paths-used-in-the-imported-files
 
 
 \pagestyle{bfheadings}
@@ -45,7 +44,7 @@
 \newcommand{\degF}{\ensuremath{^{\circ}}F}
 
 %% Adds images directory for each chapter
-\graphicspath{{Images/},{Images/EBSD/},{Images/Ti-6246/Microstructures/Edited/},{Images/Ti-6246/Photos/},{Images/Ti-6242/Photos/},{Images/Ti-6242/Microstructures/Edited/},{XRD/}} 
+\graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/}} 
 
 % Defines relative path for all nested input files. 
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
@@ -162,15 +161,15 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
 % Introduction
-%\include{Introduction}
+\include{Introduction}
 % Literature Review
-\input{Literature_Review}
+\include{Literature_Review}
 % Experimental Details
-%\include{Experimental_Details}
+\include{Experimental_Details}
 % Results and Discussion
-%\include{Results_and_Discussion}
+\include{Results_and_Discussion}
 % Summary And Conclusions
-%\include{Summary_and_Conclusions}
+\include{Summary_and_Conclusions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %							 Appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
