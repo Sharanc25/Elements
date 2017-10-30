@@ -165,7 +165,7 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 % Literature Review
 \include{Literature_Review}
 % Experimental Details
-%\include{Experimental_Details}
+\include{Experimental_Details}
 % Results and Discussion
 \include{Results_and_Discussion}
 % Summary And Conclusions
