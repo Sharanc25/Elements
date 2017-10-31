@@ -1,5 +1,5 @@
 % Create masked image.
-maskedImage = I;
+maskedImage = BW;
 maskedImage(~BW) = 0;
 
 %{
