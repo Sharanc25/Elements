@@ -1,4 +1,4 @@
-image_info = imfinfo(BW);
+[Width,Length]=size(BW);
 
 BW_out = BW;
 
