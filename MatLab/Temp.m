@@ -1,6 +1,6 @@
-[Width,Height]=size(BW);
+[Width,Height]=size(BW1);
 
-BW_out = BW;
+BW_out = BW1;
 
 % Get properties.
 properties = regionprops(BW_out, {'Area', 'Eccentricity', 'EquivDiameter', 'EulerNumber', 'MajorAxisLength', 'MinorAxisLength', 'Orientation', 'Perimeter'});
