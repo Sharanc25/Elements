@@ -1,17 +1,4 @@
-% Create masked image.
-maskedImage = BW;
-maskedImage(~BW) = 0;
-
-%{
-BW = edge(BW,'canny');
-
-% Make tempoprary line.
-%BW(end, :) = true;
-% arm is sealed off.  Now we can fill.
-BW = imfill(BW, 'holes');
-% Erase temporary line.
-%BW(end,:) = false;
-%}
+image_info = imfinfo(BW);
 
 BW_out = bwareafilt(BW, 15000);
 
