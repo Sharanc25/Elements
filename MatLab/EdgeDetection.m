@@ -46,8 +46,6 @@ standard_deviation = std([properties.Area]);
 % Average Area
 avg_area = mean(standard_deviation);
 
-thre
-
 imshow(BW_out);
 
 % The %f in the fprintf function prints the notation in decimals instead of
