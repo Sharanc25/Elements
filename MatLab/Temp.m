@@ -1,6 +1,6 @@
 image_info = imfinfo(BW);
 
-BW_out = bwareafilt(BW, 15000);
+BW_out = BW
 
 % Get properties.
 properties = regionprops(BW_out, {'Area', 'Eccentricity', 'EquivDiameter', 'EulerNumber', 'MajorAxisLength', 'MinorAxisLength', 'Orientation', 'Perimeter'});
