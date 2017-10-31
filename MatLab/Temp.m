@@ -1,11 +1,3 @@
-
-
-% Threshold image - global threshold
-BW = imbinarize(I);
-
-% Invert mask
-BW = imcomplement(BW);
-
 % Create masked image.
 maskedImage = I;
 maskedImage(~BW) = 0;
