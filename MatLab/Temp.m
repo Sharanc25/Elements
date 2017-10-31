@@ -1,4 +1,4 @@
-BW_out = BW1;
+BW_out = BW;
 
 [Width,Height]=size(BW_out);
 
