@@ -22,15 +22,13 @@
 %% Adds images directory for each chapter
 \graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/}} 
 
-\iffalse
+
 % Defines relative path for all nested input files. 
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 \def\input@path{
 {Chapters/1.Introduction/},{Chapters/2.Literature_Review/},{Chapters/3.Experimental_Details/},{Chapters/4.Results_and_Discussion/},{Chapters/5.Summary_and_Conclusions/}
 }
 \makeatother % changes the catcode of @ back to 12
-\fi
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The frontmatter environment for everything that comes with roman numbering
 \begin{frontmatter}
@@ -140,15 +138,15 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
 % Introduction
-\subfile{Chapters/1.Introduction/Introduction.tex}
+\include{/Introduction.tex}
 % Literature Review
-%\subfile{Chapters/Literature_Review}
+\include{Chapters/Literature_Review}
 % Experimental Details
-%\subfile{Chapters/Experimental_Details}
+\include{Chapters/Experimental_Details}
 % Results and Discussion
-%\subfile{Chapters/Results_and_Discussion}
+\include{Chapters/Results_and_Discussion}
 % Summary And Conclusions
-%\subfile{Chapters/Summary_and_Conclusions}
+\include{Chapters/Summary_and_Conclusions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %							 Appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
