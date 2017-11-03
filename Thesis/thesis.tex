@@ -146,7 +146,12 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
-\tensiletest
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{"Ti-6246 [cut-EDM]"}
+        \caption{Ti-6246 EDM Cut; Different Profile for surface and Cross-Section}
+    \label{fig:EDM-Cut}
+\end{figure}
 
 % Introduction
 \include{Chapters/1.Introduction/Introduction}
