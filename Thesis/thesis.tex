@@ -11,6 +11,10 @@
 % To render faster use \includeonly. https://en.wikibooks.org/wiki/TeX/includeonly
 %\includeonly{Chapters/1.Introduction/Introduction,Chapters/3.Experimental_Details/Experimental_Details}
 
+%% Adds images directory for each chapter. \graphicspath makes runtime very slow. Instead use absolute path for every image.
+%% We need to add both \graphicspath{{images/}{../images/}}. The {images} is for the main.tex file. {https://www.sharelatex.com/learn/Multi-file_LaTeX_projects}
+\graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/},{../Tensile Test/Images/},{../Fatigue Test/}} 
+
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Declarations of Commands
@@ -18,10 +22,6 @@
 %% Command for degree Celcius/Farenheit
 \newcommand{\degC}{\ensuremath{^{\circ}}C}  % Degree command is already used by iiscthes.cls
 \newcommand{\degF}{\ensuremath{^{\circ}}F}
-
-%% Adds images directory for each chapter. \graphicspath makes runtime very slow. Instead use absolute path for every image.
-%% We need to add both \graphicspath{{images/}{../images/}}. The {images} is for the main.tex file. {https://www.sharelatex.com/learn/Multi-file_LaTeX_projects}
-\graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/},{../Tensile Test/Images/},{../Fatigue Test/}} 
 
 \iffalse % Makes latex compilation slow. https://tex.stackexchange.com/questions/128067/using-a-non-centralized-structure-for-tex-files-similar-to-graphicspath
 % Defines relative path for all nested input files. 
