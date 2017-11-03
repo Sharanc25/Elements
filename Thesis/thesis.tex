@@ -146,9 +146,7 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
-\typeout{[meaning of \string\tensileTest: \meaning\imagepath]}
 
-\iffalse
 \begin{figure}[H]
     \centering
         \includegraphics[width=\textwidth]{\tensileTest}
@@ -156,7 +154,6 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
     \label{fig:EDM-Cut}
 \end{figure}
 
-\fi
 
 % Introduction
 \include{Chapters/1.Introduction/Introduction}
