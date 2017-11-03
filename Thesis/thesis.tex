@@ -23,13 +23,14 @@
 %% We need to add both \graphicspath{{images/}{../images/}}. The {images} is for the main.tex file. {https://www.sharelatex.com/learn/Multi-file_LaTeX_projects}
 \graphicspath{{../Images/},{../Images/EBSD/},{../Images/Ti-6246/Microstructures/Edited/},{../Images/Ti-6246/Photos/},{../Images/Ti-6242/Photos/},{../Images/Ti-6242/Microstructures/Edited/},{../XRD/},{../Tensile Test/Images/},{../Fatigue Test/}} 
 
-
+\iffalse %
 % Defines relative path for all nested input files. 
 \makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 \def\input@path{
 {Chapters/1.Introduction/},{Chapters/2.Literature_Review/},{Chapters/3.Experimental_Details/},{Chapters/4.Results_and_Discussion/},{Chapters/5.Summary_and_Conclusions/}
 }
 \makeatother % changes the catcode of @ back to 12
+\fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The frontmatter environment for everything that comes with roman numbering
 \begin{frontmatter}
