@@ -291,3 +291,72 @@ L = \frac{0.9*1.54 A^{0}}{0.00668} = 2.075 * 10^{-8}
 \end{equation}
 
 \fi
+
+\section{Tensile Test}
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{ccccccc}
+\hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Sample ID}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Diameter (mm)}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Gauge Length (mm)}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Strain Rate (s$ ^{-1} $)}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Cross-head Speed (mm/s)}}} & \multicolumn{2}{c}{\textbf{Yield Strength (MPa)}} \\ \cline{6-7} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Engineering}} & \multicolumn{1}{c}{\textbf{True}} \\ \hline
+Ti6242-1.2-TS & - & - & - & - & & \\ \hline
+Ti6242-1.3-TS & - & - & - & - & & \\ \hline
+Ti6242-1.4-TS & 4.043 & 20 & 0.0333 & 0.666 & 956.53 @0.2\% & 1007.13 @0.2\% \\ \hline
+Ti6242-1.5-TS & 4.037 & 20 & 0.0333 & 0.666 & 961.63 @0.2\% & 986.75 @0.2\% \\ \hline
+\end{tabular}%
+}
+\caption{Tensile Test of Ti-6242 Alloy}
+\label{table:Tensile-Test-Ti-6242}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{c|c|c|}
+\cline{2-3}
+ & \textbf{My Work} & \textbf{Arunima's Work} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Test Type}} & Tensile Test & Compression Test \\ \hline
+\multicolumn{1}{|c|}{\textbf{Dimensions}} & \multicolumn{1}{l|}{4 mm (Diameter), 20 mm (Gauge Length)} & \multicolumn{1}{l|}{6 mm x 6 mm x 11 mm (Aspect Ratio - 1.83)} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Yield Strength (MPa)}} & 997 (True, @0.2\%) & 902 (Thesis, @0.2\%), 1045 (Presentation) (True, @5\%) \\ \hline
+\multicolumn{1}{|c|}{\textbf{Strain Rate (s$ ^{-1} $)}} & 3.3 x 10$^{-2}$ & 10$^{-3}$ \\ \hline
+\end{tabular}%
+}
+\caption{Yield Strength Comparison with Arunima's Work}
+\label{table:Yield Strength Comparison with Arunima's Work}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti6242-1.4-TS-Graph"}
+        \caption{Ti6242-1.4 As Received Tensile Test}
+        \label{fig:2a}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Ti6242-1.5-TS-Graph"}
+        \caption{Ti6242-1.5 As Received Tensile Test}
+        \label{fig:2b}
+    \end{subfigure}
+    \\
+    \begin{subfigure}{0.40\textwidth}
+        \includegraphics[width=\textwidth]{"Tensile Test [Arunima Banerjee]"}
+        \caption{Ti6242-1.5 As Received Tensile Test}
+        \label{fig:2b}
+    \end{subfigure} 
+     
+    \caption{Tensile Test of as received Ti-6242 @0.0333 s$ ^{-1} $}
+    \label{fig:Tensile-Test-6242}
+\end{figure}
+
+\section{Fatigue Test}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=0.50\textwidth]{"Fatigue [Arunima Banerjee]"}
+        \caption{Ti-6242 Fatigue Test by Arunima}
+    \label{fig:fatigue-test-arunima}
+\end{figure}
