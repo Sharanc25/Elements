@@ -32,6 +32,15 @@
 \newcommand{\degC}{\ensuremath{^{\circ}}C}  % Degree command is already used by iiscthes.cls
 \newcommand{\degF}{\ensuremath{^{\circ}}F}
 
+%% \graphicspath makes runtime very slow. Instead use absolute path for every image. Use the following commands which contains the file absolute path. Also mention file extension for images for faster execution.
+
+\newcommand{\Photos}{D:/PhD/Thesis/Photos/Images/}
+\newcommand{\Microstructure}{D:/PhD/Thesis/Microstructure/Images/}
+\newcommand{\FatigueTest}{D:/PhD/Thesis/Fatigue Test/Images/}
+\newcommand{\Texture}{D:/PhD/Thesis/Texture/Images/}
+\newcommand{\XRD}{D:/PhD/Thesis/XRD/Images/}
+\newcommand{\TensileTest}{D:/PhD/Thesis/Tensile Test/Images/}
+
 \iffalse
  % Makes latex compilation slow. https://tex.stackexchange.com/questions/128067/using-a-non-centralized-structure-for-tex-files-similar-to-graphicspath
 % Defines relative path for all nested input files. 
@@ -41,12 +50,3 @@
 }
 \makeatother % changes the catcode of @ back to 12
 \fi
-
-%% \graphicspath makes runtime very slow. Instead use absolute path for every image. Use the following commands which contains the file absolute path. Also mention file extension for images for faster execution.
-
-\newcommand{\Photos}{D:/PhD/Thesis/Photos/Images/}
-\newcommand{\Microstructure}{D:/PhD/Thesis/Microstructure/Images/}
-\newcommand{\FatigueTest}{D:/PhD/Thesis/Fatigue Test/Images/}
-\newcommand{\Texture}{D:/PhD/Thesis/Texture/Images/}
-\newcommand{\XRD}{D:/PhD/Thesis/XRD/Images/}
-\newcommand{\TensileTest}{D:/PhD/Thesis/Tensile Test/Images/}
