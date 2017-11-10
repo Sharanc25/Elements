@@ -6,8 +6,7 @@ IISc Thesis Folder Structure:
    into the thesis or paper. The original images are kept in their respective folders.
 
 
-Microstructure (Folder) :
-Contains
+Microstructure (Folder) Contains:
 Optical Micrscopy
 SEM
 TEM
