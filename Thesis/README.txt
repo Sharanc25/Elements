@@ -4,3 +4,10 @@ IISc Thesis Folder Structure:
    used to facilitate other users to go through the folder structure with ease.
 3. The "Image" folder in each directory (like Tensile Test, Texture, etc..) consists only of images that go
    into the thesis or paper. The original images are kept in their respective folders.
+
+
+Microstructure (Folder) :
+Contains
+Optical Micrscopy
+SEM
+TEM
