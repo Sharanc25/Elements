@@ -7,7 +7,7 @@ IISc Thesis Folder Structure:
 
 
 Faster Rendering of LaTeX:
-1. Use graphics extension after every image file added (or) use \DeclareGraphicsExtensions{.jpg,.eps,.png}
+1. Use graphics extension after every image file added (or) use \DeclareGraphicsExtensions{.jpg,.eps,.png}. The first name will be searched first.
 
 Photos (Folder) Contains:
 Photos of samples with a reference scale.
