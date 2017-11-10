@@ -27,6 +27,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Declarations of Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Try to use mostly jpg images for the thesis. By using \DeclareGraphicsExtensions, we http://macosx-tex.576846.n2.nabble.com/Is-there-a-better-alternative-to-DeclareGraphicsExtensions-td2483186.html
+\DeclareGraphicsExtensions{.jpg,.eps,.png}
+
+
 %% Command for degree Celcius/Farenheit
 
 \newcommand{\degC}{\ensuremath{^{\circ}}C}  % Degree command is already used by iiscthes.cls
