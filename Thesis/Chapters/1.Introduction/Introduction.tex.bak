@@ -1,1 +1,10 @@
 \chapter{Introduction}
+
+\section{Fatigue Test}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=0.50\textwidth]{\FatigueTest "Fatigue [Arunima Banerjee]"}
+        \caption{Ti-6242 Fatigue Test by Arunima}
+    \label{fig:fatigue-test-arunima}
+\end{figure}
