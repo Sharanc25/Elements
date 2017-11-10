@@ -1,0 +1,47 @@
+\ProvidesPackage{thesis_preamble}
+
+% Custom Packages For IISc Thesis
+% Subfile doesn't work with two layers of folder structure like cahpter/intro/intro.tex
+%\usepackage{subfiles} % compile every subfile independently
+\usepackage[square,comma,sort&compress]{natbib}
+\usepackage{hyperref} % hyperlinks for references.
+\usepackage{amsmath} % easier math formulae, align, subequations \ldots
+\usepackage{amssymb} 
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float} %% For image placement
+\usepackage{multirow} %% For Multi-Row functionality in tables
+\usepackage[hang]{caption}
+\usepackage{subcaption}
+\usepackage{mhchem}
+\usepackage{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
+\usepackage{hyperref} % To make links clickable
+\usepackage{xcolor}   % To remove ugly borders on links - https://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Declarations of Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Command for degree Celcius/Farenheit
+
+\newcommand{\degC}{\ensuremath{^{\circ}}C}  % Degree command is already used by iiscthes.cls
+\newcommand{\degF}{\ensuremath{^{\circ}}F}
+
+%% \graphicspath makes runtime very slow. Instead use absolute path for every image. Use the following commands which contains the file absolute path. Also mention file extension for images for faster execution.
+
+
+
+\iffalse
+ % Makes latex compilation slow. https://tex.stackexchange.com/questions/128067/using-a-non-centralized-structure-for-tex-files-similar-to-graphicspath
+% Defines relative path for all nested input files. 
+\makeatletter % changes the catcode of @ to 11. tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
+\def\input@path{
+{Chapters/1.Introduction/},{Chapters/2.Literature_Review/},{Chapters/3.Experimental_Details/},{Chapters/4.Results_and_Discussion/},{Chapters/5.Summary_and_Conclusions/}
+}
+\makeatother % changes the catcode of @ back to 12
+\fi
