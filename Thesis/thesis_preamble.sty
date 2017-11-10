@@ -43,6 +43,15 @@
 \newcommand{\XRD}{D:/PhD/Thesis/XRD/Images/}
 \newcommand{\TensileTest}{D:/PhD/Thesis/Tensile Test/Images/}
 
+\makeatletter
+\newcommand{\typeoutthetime}
+  {\typeout{\strip@pt\dimexpr\pdfelapsedtime sp\relax sec.}}
+\edef\@popfilename
+  {%
+    \unexpanded\expandafter{\@popfilename}%
+    \noexpand\typeoutthetime
+  }
+\makeatother
 
 \iffalse
 % Makes latex compilation slow. https://tex.stackexchange.com/questions/128067/using-a-non-centralized-structure-for-tex-files-similar-to-graphicspath
