@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  20 NOV 2017 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.6.25)  20 NOV 2017 21:58
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -623,22 +623,22 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 )
 No file thesis.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 18.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -647,9 +647,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count196
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write4
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -671,7 +671,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 17.
+. Activating mapping `default' on line 18.
 .................................................
  (iisclogo.sty
 \log@xunitlength=\skip71
@@ -682,33 +682,33 @@ Typesetting IISc Logo ...
 [0
 
 {C:/Users/Sharan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 43.
  [1]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \acknowledgements
+l.60 \acknowledgements
                        [0]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \vita
+l.68 \vita
            [1
 
 ] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
