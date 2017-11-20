@@ -1,3 +1,9 @@
+Important:
+Do not use spaces in folder names. File names can contain space or multidot if "grffile" package is installed.
+
+Measure Compilation Time:
+time pdflatex -output-directory=build thesis.tex
+
 IISc Thesis Folder Structure:
 1. Each section (Introduction, Experimental Details, etc..) are inside the "Chapters" folder.
 2. Images are inside their corresponding folders (like Tensile Test, Texture, etc..). This structure is
@@ -18,5 +24,4 @@ Optical Micrscopy
 SEM
 TEM
 
-Measure Compilation Time:
-time pdflatex myfile.tex
+

@@ -9,13 +9,13 @@
 \usepackage{amssymb} 
 \usepackage{amsthm}
 \usepackage{graphicx}
-\usepackage[outdir=./]{epstopdf}
+\usepackage{epstopdf}
 \usepackage{float} %% For image placement
 \usepackage{multirow} %% For Multi-Row functionality in tables
 \usepackage[hang]{caption}
 \usepackage{subcaption}
 \usepackage{mhchem}
-\usepackage{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
+\usepackage[space,multidot]{grffile} %% For multidot filenames - https://tex.stackexchange.com/questions/110513/unknown-graphics-extension-1-png
 \usepackage{hyperref} % To make links clickable
 \usepackage{xcolor}   % To remove ugly borders on links - https://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks
 %\usepackage[proof=false,left=true,timer=true]{regstats}
@@ -40,10 +40,10 @@
 %% \graphicspath makes runtime very slow. Instead use absolute path for every image. Use the following commands which contains the file absolute path. Absolute path also prevents .eps file error. Also mention file extension for images for faster execution.
 \newcommand{\Photos}{D:/PhD/Thesis/Photos/Images/}
 \newcommand{\Microstructure}{D:/PhD/Thesis/Microstructure/Images/}
-\newcommand{\FatigueTest}{D:/PhD/Thesis/Fatigue Test/Images/}
+\newcommand{\FatigueTest}{D:/PhD/Thesis/Fatigue/Images/}
 \newcommand{\Texture}{D:/PhD/Thesis/Texture/Images/}
 \newcommand{\XRD}{D:/PhD/Thesis/XRD/Images/}
-\newcommand{\TensileTest}{D:/PhD/Thesis/Tensile Test/Images/}
+\newcommand{\TensileTest}[1]{D:/PhD/Thesis/Tensile/Images/#1}
 
 \iffalse
 % Makes latex compilation slow. https://tex.stackexchange.com/questions/128067/using-a-non-centralized-structure-for-tex-files-similar-to-graphicspath
