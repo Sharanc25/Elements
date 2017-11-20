@@ -17,3 +17,6 @@ Microstructure (Folder) Contains:
 Optical Micrscopy
 SEM
 TEM
+
+Measure Compilation Time:
+time pdflatex myfile.tex
