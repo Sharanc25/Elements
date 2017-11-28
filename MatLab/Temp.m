@@ -7,7 +7,7 @@ I = rgb2gray(I);
 BW = imbinarize(I);
 BW = imcomplement(BW);
 
-BW = imnoise(BW,'salt & pepper',0.0000001);
+BW = imnoise(BW,'salt & pepper',0.021);
 
 BW2 = bwmorph(BW,'remove');
 figure
