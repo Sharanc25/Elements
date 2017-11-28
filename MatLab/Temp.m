@@ -5,7 +5,7 @@ I = rgb2gray(I);
 
 % Threshold image - global threshold
 BW = imbinarize(I);
-BW = imcomplement(BW);
+%BW = imcomplement(BW);
 
 BW2 = bwmorph(BW,'skel',Inf);
 figure
