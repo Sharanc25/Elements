@@ -7,5 +7,5 @@ I = rgb2gray(I);
 
 % Threshold image - global threshold
 BW = imbinarize(I);
-
+BW = imcomplement(BW);
 imshow(BW);
