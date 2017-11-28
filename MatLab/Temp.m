@@ -7,6 +7,6 @@ I = rgb2gray(I);
 BW = imbinarize(I);
 BW = imcomplement(BW);
 
-BW2 = bwmorph(BW1,'skel',Inf);
+BW2 = bwmorph(BW,'skel',Inf);
 figure
 imshow(BW2);
