@@ -1,4 +1,4 @@
-image = ('C:\Users\Sharan\Downloads\5_005.jpg');
+image = ('C:\Users\Sharan\Downloads\5_005.tif');
 
 image_info = imfinfo(image);
 
