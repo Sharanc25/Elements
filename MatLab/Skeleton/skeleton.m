@@ -4,4 +4,4 @@
 % also the local radius at each point.
 
 disp('Compiling...  (You may need to execute ''mex -setup'' first.)');
-mex 'G:\Projects\Matlab\skeleton.cpp'
+mex 'skeleton.cpp'
