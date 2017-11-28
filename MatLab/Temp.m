@@ -1,4 +1,4 @@
-image = ('1.tif');
+image = ('5.jpg');
 
 I = imread(image);
 I = rgb2gray(I);
