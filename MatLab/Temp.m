@@ -2,7 +2,7 @@ image = ('6.tif');
 
 I = imread(image);
 I = rgb2gray(I);
-I= imnoise(I,'salt & pepper',0.2);
+I= imnoise(I,'salt & pepper',0.001);
 
 % Threshold image - global threshold
 BW = imbinarize(I);
