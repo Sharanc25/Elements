@@ -8,4 +8,4 @@ BW = imbinarize(I);
 %BW = imcomplement(BW);
 BW2 = bwmorph(BW,'remove');
 figure
-imshow(BW2);
+imshow(BW);
