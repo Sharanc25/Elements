@@ -1,4 +1,4 @@
-image = ('C:\Users\Sharan\Downloads\5_005.jpg');
+image = ('5_005.jpg');
 
 I = imread(image);
 I = rgb2gray(I);
