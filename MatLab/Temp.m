@@ -8,8 +8,6 @@ I = imnoise(I,'salt & pepper',0.02);
 BW = imbinarize(I);
 BW = imcomplement(BW);
 
-
-
 BW2 = bwmorph(BW,'remove');
 figure
 imshow(BW2);
