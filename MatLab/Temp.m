@@ -1,27 +1,11 @@
-BW_out = BW;
+image = ('C:\Users\Sharan\Downloads\5_005.jpg');
 
-[Width,Height]=size(BW_out);
+image_info = imfinfo(image);
 
-% Get properties.
-properties = regionprops(BW_out, {'Area', 'Eccentricity', 'EquivDiameter', 'EulerNumber', 'MajorAxisLength', 'MinorAxisLength', 'Orientation', 'Perimeter'});
+I = imread(image);
+I = rgb2gray(I);
 
-% Area of region of interest
-roi_area = sum([properties.Area]);
+% Threshold image - global threshold
+BW = imbinarize(I);
 
-% Area of the whole image
-image_area = Width * Height;
-
-% Area Fraction of the 
-area_fraction = (roi_area/image_area)*100;
-
-% Standard Deviation
-standard_deviation = std([properties.Area]);
-
-% Average Area
-avg_area = mean(standard_deviation);
-
-%imshow(BW_out);
-
-% The %f in the fprintf function prints the notation in decimals instead of
-% exponentials
-fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,standard_deviation);
+imshow(BW);
