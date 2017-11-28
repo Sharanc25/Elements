@@ -1,5 +1,5 @@
 image = ('6.tif');
-
+image_info = imfinfo(image);
 I = imread(image);
 I = rgb2gray(I);
 I = imnoise(I,'salt & pepper',0.0002);
