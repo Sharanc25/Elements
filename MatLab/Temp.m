@@ -5,9 +5,10 @@ I = rgb2gray(I);
 
 % Threshold image - global threshold
 BW = imbinarize(I);
+BW = imnoise(BW,'salt & pepper',0.021);
 BW = imcomplement(BW);
 
-BW = imnoise(BW,'salt & pepper',0.021);
+
 
 BW2 = bwmorph(BW,'remove');
 figure
