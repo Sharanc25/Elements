@@ -1,2 +1,5 @@
 %system('copy *.txt combined.txt');
-data = dlmread('C:\Users\Sharan\Desktop\Ti6242-2-Old-FS\1st day.txt',' ');
+fid = fopen('C:\Users\Sharan\Desktop\Ti6242-2-Old-FS\1st day.txt', 'rt');
+Data = textscan(fid, '%d %f %f', 'headerLines', 3, 'CollectOutput', true);
+fclose(fid);
+Data= cell2mat( Data);   
