@@ -1,4 +1,6 @@
-files = ([C:\Users\Sharan\Desktop\Ti6242-2-Old-FS, '\*.txt']);
+files = (['C:\Users\Sharan\Desktop\Ti6242-2-Old-FS', '\*.txt']);
+
+
 
 %fopen(filename, 'rt');  %for reading
 %fopen(filename, 'wt');  %for writing
