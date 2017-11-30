@@ -1,5 +1,5 @@
-files = dir(['C:\Users\Sharan\Desktop\Ti6242-2-Old-FS', '\*.txt']);
-numberOfFiles = length(files);
+%files = dir(['C:\Users\Sharan\Desktop\Ti6242-2-Old-FS', '\*.txt']);
+%numberOfFiles = length(files);
 
 
 
