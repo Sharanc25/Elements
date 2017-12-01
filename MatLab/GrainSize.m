@@ -9,10 +9,6 @@ BW_out = bwareafilt(BW, 500000);
 % Get properties.
 properties = regionprops(BW_out,'Area');
 
-theArea{imageNumber} = [properties.Area];
-
-disp(theArea{imageNumber});
-
 % Area of region of interest
 roi_area = sum([properties.Area]);
 
