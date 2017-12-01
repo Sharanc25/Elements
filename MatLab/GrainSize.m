@@ -4,7 +4,7 @@ BW = [Top1,Top2];
 
 [Height, Width] = size(BW);
 
-BW_out = bwareafilt(BW);
+BW_out = bwareafilt(BW, 15000);
 
 % Get properties.
 properties = regionprops(BW_out, {'Area'});
