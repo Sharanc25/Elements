@@ -30,7 +30,7 @@ A = (standard_deviation/avg_area)^2;
 
 Error = sqrt((1+A)/numberOfPoints);
 
-disp(numberOfPoints);
+
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
