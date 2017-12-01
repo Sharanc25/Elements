@@ -28,7 +28,7 @@ A = (standard_deviation/avg_area)^2;
 
 Error = sqrt((1+A)/numberOfPoints);
 
-disp(numberOfPoints['Top1']);
+disp(numberOfPoints[Top1]);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
