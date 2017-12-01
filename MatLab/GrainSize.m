@@ -15,7 +15,7 @@ roi_area = sum([properties.Area]);
 % Area of the whole image
 image_area = Width * Height;
 
-% Area Fraction of the 
+% Area Fraction of the
 area_fraction = (roi_area/image_area)*100;
 
 % Average Area
@@ -24,7 +24,7 @@ avg_area = mean([properties.Area]);
 % Standard Deviation
 standard_deviation = std([properties.Area]);
 
-% Error 
+% Error
 numberOfPoints = numel(properties);
 A = (standard_deviation/avg_area)^2;
 
