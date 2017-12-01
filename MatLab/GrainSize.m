@@ -2,10 +2,8 @@ BW = CS1;
 
 [Height, Width] = size(BW);
 
-disp(Width);
+disp(Height);
 
-
-%{
 
 BW_out = bwareafilt(BW, 15000);
 
@@ -32,4 +30,3 @@ imshow(BW_out);
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
 fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,standard_deviation);
-%}
