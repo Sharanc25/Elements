@@ -11,6 +11,8 @@ properties = regionprops(BW_out,'Area');
 
 theArea = [properties.Area];
 
+disp(theArea);
+
 % Area of region of interest
 roi_area = sum([properties.Area]);
 
