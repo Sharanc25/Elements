@@ -19,8 +19,6 @@ area_fraction = (roi_area/image_area)*100;
 % Average Area
 avg_area = mean([properties.Area]);
 
-
-
 % Standard Deviation
 standard_deviation = std([properties.Area]);
 
@@ -30,7 +28,7 @@ A = (standard_deviation/avg_area)^2;
 
 Error = sqrt((1+A)/numberOfPoints);
 
-%imshow(BW_out);
+disp(numberOfPoints);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
