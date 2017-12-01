@@ -1,9 +1,6 @@
 [Height, width] = size(CS1);
 
-
-image_info = imfinfo(image);
-
-disp(image_info);
+disp(Width);
 
 %{
 % Invert mask
