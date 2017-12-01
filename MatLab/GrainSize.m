@@ -9,6 +9,8 @@ BW_out = bwareafilt(BW, 15000);
 % Get properties.
 properties = regionprops(BW_out, {'Area'});
 
+numberOfPoints = numel(properties);
+
 % Area of region of interest
 roi_area = sum([properties.Area]);
 
@@ -25,12 +27,12 @@ avg_area = mean([properties.Area]);
 standard_deviation = std([properties.Area]);
 
 % Error 
-numberOfPoints = numel(properties);
+
 A = (standard_deviation/avg_area)^2;
 
 Error = sqrt((1+A)/numberOfPoints);
 
-
+disp(numberOfPoints);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
