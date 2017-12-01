@@ -35,3 +35,5 @@ Error = sqrt((1+A)/numberOfPoints);
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
 fprintf('Area Fraction (percent) = %f. Error (percent) = %f. \n',area_fraction,Error*100);
+
+save(GrainSize);
