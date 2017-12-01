@@ -16,15 +16,17 @@ image_area = Width * Height;
 % Area Fraction of the 
 area_fraction = (roi_area/image_area)*100;
 
+% Average Area
+avg_area = mean([properties.Area]);
+
+disp(avg_area);
+
 % Standard Deviation
 standard_deviation = std([properties.Area]);
 
 % Error 
 numberOfPoints = numel(properties);
-Error = sqrt(1/numberOfPoints(1+(standard_deviation/)^2));
-
-% Average Area
-avg_area = mean(standard_deviation);
+Error = sqrt(1/numberOfPoints(1+(standard_deviation/avg_area)^2));
 
 %imshow(BW_out);
 
