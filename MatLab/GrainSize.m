@@ -1,4 +1,5 @@
-image = CS1;
+[Height, width] = size(CS1);
+
 
 image_info = imfinfo(image);
 
@@ -21,7 +22,7 @@ properties = regionprops(BW_out, {'Area', 'Eccentricity', 'EquivDiameter', 'Eule
 roi_area = sum([properties.Area]);
 
 % Area of the whole image
-image_area = image_info.Width * image_info.Height;
+image_area = Width * Height;
 
 % Area Fraction of the 
 area_fraction = (roi_area/image_area)*100;
