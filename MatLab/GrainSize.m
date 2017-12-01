@@ -8,7 +8,7 @@ disp(Height);
 BW_out = bwareafilt(BW, 15000);
 
 % Get properties.
-properties = regionprops(BW_out, {'Area', 'Eccentricity', 'EquivDiameter', 'EulerNumber', 'MajorAxisLength', 'MinorAxisLength', 'Orientation', 'Perimeter'});
+properties = regionprops(BW_out, {'Area'});
 
 % Area of region of interest
 roi_area = sum([properties.Area]);
