@@ -22,11 +22,10 @@ area_fraction = (roi_area/image_area)*100;
 avg_area = mean([properties.Area]);
 
 % Standard Deviation
-
 standard_deviation = std([properties.Area]);
 
 % Error 
-
+numberOfPoints = numel(properties);
 A = (standard_deviation/avg_area)^2;
 
 Error = sqrt((1+A)/numberOfPoints);
