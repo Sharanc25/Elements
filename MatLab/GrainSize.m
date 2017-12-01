@@ -2,12 +2,9 @@
 
 disp(Width);
 
-%{
+
 % Invert mask
-BW = imcomplement(BW);
-
-
-
+BW = CS1;
 
 
 BW_out = bwareafilt(BW, 15000);
