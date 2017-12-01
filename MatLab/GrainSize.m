@@ -1,4 +1,4 @@
-BW = [Top2,Top1];
+BW = [Top2];
 
 [Height, Width] = size(BW);
 
