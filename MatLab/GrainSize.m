@@ -20,7 +20,7 @@ area_fraction = (roi_area/image_area)*100;
 standard_deviation = std([properties.Area]);
 
 % Error 
-disp(properties.Length);
+disp(properties.length);
 
 % Average Area
 avg_area = mean(standard_deviation);
