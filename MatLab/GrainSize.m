@@ -9,7 +9,7 @@ BW_out = bwareafilt(BW, 15000);
 % Get properties.
 properties = regionprops(BW_out, {'Area'});
 
-numberOfPoints = numel(properties);
+
 
 % Area of region of interest
 roi_area = sum([properties.Area]);
