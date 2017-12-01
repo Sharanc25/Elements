@@ -9,8 +9,6 @@ BW_out = bwareafilt(BW, 15000);
 % Get properties.
 properties = regionprops(BW_out, {'Area'});
 
-
-
 % Area of region of interest
 roi_area = sum([properties.Area]);
 
@@ -24,6 +22,7 @@ area_fraction = (roi_area/image_area)*100;
 avg_area = mean([properties.Area]);
 
 % Standard Deviation
+
 standard_deviation = std([properties.Area]);
 
 % Error 
