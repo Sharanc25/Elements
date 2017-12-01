@@ -1,4 +1,4 @@
-BW = Top1;
+BW = CS1;
 
 [Height, Width] = size(BW);
 
