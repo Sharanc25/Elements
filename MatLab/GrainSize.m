@@ -2,9 +2,6 @@ BW = CS1;
 
 [Height, Width] = size(BW);
 
-disp(Height);
-
-
 BW_out = bwareafilt(BW, 15000);
 
 % Get properties.
@@ -23,7 +20,7 @@ area_fraction = (roi_area/image_area)*100;
 standard_deviation = std([properties.Area]);
 
 % Error 
-disp(regionprops.length);
+disp(regionprops);
 
 % Average Area
 avg_area = mean(standard_deviation);
