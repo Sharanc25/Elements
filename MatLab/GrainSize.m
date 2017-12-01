@@ -1,4 +1,4 @@
-[Height, width] = size(CS1);
+[Height, Width] = size(CS1);
 
 disp(Width);
 
