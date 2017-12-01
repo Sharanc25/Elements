@@ -21,7 +21,7 @@ standard_deviation = std([properties.Area]);
 
 % Error 
 numberOfPoints = numel(properties);
-Error = sqrt(1/numberOfPoints(1+));
+Error = sqrt(1/numberOfPoints(1+(standard_deviation/)^2));
 
 % Average Area
 avg_area = mean(standard_deviation);
