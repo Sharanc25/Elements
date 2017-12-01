@@ -26,9 +26,9 @@ standard_deviation = std([properties.Area]);
 
 % Error 
 numberOfPoints = numel(properties);
-disp((standard_deviation/avg_area)^2);
+A = (standard_deviation/avg_area)^2;
 
-%Error = sqrt(1/numberOfPoints(1+(standard_deviation/avg_area)^2));
+Error = sqrt(1/numberOfPoints(1+A));
 
 %imshow(BW_out);
 
