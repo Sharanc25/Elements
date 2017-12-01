@@ -4,10 +4,10 @@ BW = [Top1,Top2];
 
 [Height, Width] = size(BW);
 
-BW_out = bwareafilt(BW, 25000);
+BW_out = bwareafilt(BW, 500000);
 
 % Get properties.
-properties = regionprops(BW_out, {'Area'});
+properties = regionprops(BW_out,{'Area'});
 
 % Area of region of interest
 roi_area = sum([properties.Area]);
