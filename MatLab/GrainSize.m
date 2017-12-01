@@ -34,4 +34,4 @@ Error = sqrt((1+A)/numberOfPoints);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
-fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,standard_deviation);
+fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,Error);
