@@ -56,4 +56,4 @@ imshow(BW_out);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
-fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,Error);
+fprintf('Area Fraction = %f. Error = %f. \n',area_fraction,Error);
