@@ -46,8 +46,14 @@ standard_deviation = std([properties.Area]);
 % Average Area
 avg_area = mean(standard_deviation);
 
+% Error
+numberOfPoints = numel(properties);
+A = (standard_deviation/avg_area)^2;
+
+Error = sqrt((1+A)/numberOfPoints);
+
 imshow(BW_out);
 
 % The %f in the fprintf function prints the notation in decimals instead of
 % exponentials
-fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,standard_deviation);
+fprintf('Area Fraction = %f. Standard Deviation = %f. \n',area_fraction,Error);
