@@ -1,4 +1,4 @@
-image = ('1.tif');
+image = ('2.tif');
 
 image_info = imfinfo(image);
 
