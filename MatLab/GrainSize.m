@@ -1,6 +1,6 @@
 %BW = [Top9,Top10,Top11,Top12];
 
-BW = Top5;
+BW = Top6;
 
 [Height, Width] = size(BW);
 
