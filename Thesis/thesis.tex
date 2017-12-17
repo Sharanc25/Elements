@@ -122,17 +122,9 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Using Include to improve compilation speed. Cannot Nest Include files. - https://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include
 
-\begin{figure}[H]
-    \centering
-        \includegraphics[width=0.50\textwidth]{\FatigueTest{S-N-curve.eps}}
-        \caption{S-N Curve (Ti-6242 Fatigue Test)}
-    \label{fig:fatigue-test-sn-curve}
-\end{figure}
-
-
 
 % Always mention file extension for images for faster execution. \include function does not take file extension
-\iffalse
+
 % Introduction
 \include{Chapters/1.Introduction/Introduction}
 % Literature Review
@@ -143,7 +135,7 @@ xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
 \include{Chapters/4.Results_and_Discussion/Results_and_Discussion}
 % Summary And Conclusions
 \include{Chapters/5.Summary_and_Conclusions/Summary_and_Conclusions}
-\fi
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %							 Appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
