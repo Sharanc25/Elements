@@ -19,7 +19,7 @@ Photos (Folder) Contains:
 Photos of samples with a reference scale.
 Photos of machines.
 
-Microstructure (Folder) Contains:
+Microstructure (Folder) Renamed to Heat Treatment:
 Optical Micrscopy
 SEM
 TEM
