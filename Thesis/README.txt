@@ -4,6 +4,10 @@ Do not use spaces in folder names. File names can contain space or multidot if "
 Measure Compilation Time:
 time pdflatex -output-directory=build thesis.tex
 
+Debugging:
+epstopdf: Too Many input files - All *.eps filenames should not have spaces in them.
+
+
 IISc Thesis Folder Structure:
 1. Each section (Introduction, Experimental Details, etc..) are inside the "Chapters" folder.
 2. Images are inside their corresponding folders (like Tensile Test, Texture, etc..). This structure is
