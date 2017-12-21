@@ -1,4 +1,4 @@
-BW = [Top9];
+BW = [Top8];
 
 %BW = [CS2,CS3,CS4];
 
