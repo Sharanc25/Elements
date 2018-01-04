@@ -4,16 +4,16 @@
 \usepackage{appendixnumberbeamer}
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
-\usepackage{pgfplots}
-\usepgfplotslibrary{dateplot}
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 \usepackage{amsmath}
 \usepackage{graphicx}
-
+\usepackage{comprehensive_preamble}
 \usepackage[normalem]{ulem} % For text strikethrough
 \usepackage{subcaption}
 \usepackage{caption}
+\captionsetup[subfigure]{labelformat=empty,position=b} % Removes Figure 1: from figures
+\captionsetup[figure]{labelformat=empty}
 
 \title{Primary Alpha, Transformed Beta and Low Cycle Fatigue of Titanium 6246 and 6242 Alloy}
 \subtitle{Comprehensive Exam}
@@ -28,11 +28,6 @@
 \metroset{block=fill}
 
 \maketitle
-
-\begin{frame}{Table of contents}
-  \setbeamertemplate{section in toc}[sections numbered]
-  \tableofcontents[hideallsubsections]
-\end{frame}
 
 \begin{frame}[fragile]{Statement of work}
 
@@ -80,38 +75,20 @@
 \begin{frame}{Initial Microstructure}
 \begin{figure}[H]
     \centering
-    \begin{subfigure}{0.49\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\textwidth]{\HeatTreatment{"Ti6246-1.1-Top (500x)"}}
-        \caption{Ti-6246 Surface; Area Fraction - 33.87\%}
+        \caption{Ti-6246}
         \label{fig:a-As-Received-micro}
     \end{subfigure}
     ~
-    \begin{subfigure}{0.49\textwidth}
-        \includegraphics[width=\textwidth]{\HeatTreatment{"Ti6246-1.1.1-CS (500x)"}}
-        \caption{Ti-6246 Cross-Section; Area Fraction - 56.79\%}
-        \label{fig:b-As-Received-micro}
-    \end{subfigure}
-  
-    \caption{Microstructure of Ti-6246 Alloy; Magnification - 500x}
-    \label{fig:As-Received-micro}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}{0.49\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\textwidth]{\HeatTreatment{Ti6242-1.2-Top-5(500x).jpg}}
-        \caption{Ti-6242 Surface}
+        \caption{Ti-6242}
         \label{fig:Ti-6242 Surface}
     \end{subfigure}
-    ~
-    \begin{subfigure}{0.49\textwidth}
-        \includegraphics[width=\textwidth]{\HeatTreatment{"Ti6242-1.1-CS-5(500x)"}}
-        \caption{Ti-6242 Cross-Section}
-        \label{fig:Ti-6242 Cross-Section}
-    \end{subfigure}
   
-    \caption{Microstructure of Ti-6242 Alloy; Magnification - 500x}
-    \label{fig:As-Received}
+    \caption{As Received Microstructure; Magnification - 500x}
+    \label{fig:As-Received-micro}
 \end{figure}
 \end{frame}
 
