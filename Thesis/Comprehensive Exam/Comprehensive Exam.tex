@@ -155,7 +155,22 @@ Zr - Alpha Stabilizer, grain refinement
         \label{fig:Ti-6242 Surface}
     \end{subfigure}        
   
-    %\caption{As Received Microstructure; Magnification - 500x}
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ccccc@{}}
+\toprule
+\textbf{Material} & \textbf{R - Value} & \textbf{Sigma Max} & \textbf{Dwell Time} & \textbf{Nf} \\ \midrule
+\multirow{2}{*}{\textbf{Alpha Beta Forged}} & \multirow{2}{*}{0} & \multirow{2}{*}{870} & 2 Minutes & 2,492 \\
+ &  &  & Cyclic & 27,755 \\
+\multirow{2}{*}{\textbf{Beta Forged}} & \multirow{2}{*}{0} & \multirow{2}{*}{870} & 2 Minutes & 11, 887 \\
+ &  &  & Cyclic & 30, 197 \\ \bottomrule
+\end{tabular}
+\end{table}
     
 \end{figure}
 
